@@ -1,0 +1,2616 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "FaceMatchFW",
+    "printedName": "FaceMatchFW",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceMatchFW",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FaceMatchFW"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "FaceMatchFW"
+      },
+      {
+        "kind": "Import",
+        "name": "Vision",
+        "printedName": "Vision",
+        "declKind": "Import",
+        "moduleName": "FaceMatchFW"
+      },
+      {
+        "kind": "Import",
+        "name": "Metal",
+        "printedName": "Metal",
+        "declKind": "Import",
+        "moduleName": "FaceMatchFW",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MetalPerformanceShaders",
+        "printedName": "MetalPerformanceShaders",
+        "declKind": "Import",
+        "moduleName": "FaceMatchFW"
+      },
+      {
+        "kind": "Import",
+        "name": "MetalKit",
+        "printedName": "MetalKit",
+        "declKind": "Import",
+        "moduleName": "FaceMatchFW"
+      },
+      {
+        "kind": "Import",
+        "name": "Accelerate",
+        "printedName": "Accelerate",
+        "declKind": "Import",
+        "moduleName": "FaceMatchFW"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PersonalCodeSelfieSDKDelegate",
+        "printedName": "PersonalCodeSelfieSDKDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onCaptureSelfie",
+            "printedName": "onCaptureSelfie(image:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11FaceMatchFW29PersonalCodeSelfieSDKDelegateP09onCaptureF05imageySo7UIImageC_tF",
+            "mangledName": "$s11FaceMatchFW29PersonalCodeSelfieSDKDelegateP09onCaptureF05imageySo7UIImageC_tF",
+            "moduleName": "FaceMatchFW",
+            "genericSig": "<τ_0_0 where τ_0_0 : FaceMatchFW.PersonalCodeSelfieSDKDelegate>",
+            "sugared_genericSig": "<Self where Self : FaceMatchFW.PersonalCodeSelfieSDKDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11FaceMatchFW29PersonalCodeSelfieSDKDelegateP",
+        "mangledName": "$s11FaceMatchFW29PersonalCodeSelfieSDKDelegateP",
+        "moduleName": "FaceMatchFW",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CompareFaceAndMatchDelegate",
+        "printedName": "CompareFaceAndMatchDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onCompareFaceAndMatchResult",
+            "printedName": "onCompareFaceAndMatchResult(transactionID:similarity:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11FaceMatchFW07Comparea3AndB8DelegateP02ondaeB6Result13transactionID10similarityySS_SdtF",
+            "mangledName": "$s11FaceMatchFW07Comparea3AndB8DelegateP02ondaeB6Result13transactionID10similarityySS_SdtF",
+            "moduleName": "FaceMatchFW",
+            "genericSig": "<τ_0_0 where τ_0_0 : FaceMatchFW.CompareFaceAndMatchDelegate>",
+            "sugared_genericSig": "<Self where Self : FaceMatchFW.CompareFaceAndMatchDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onFailToCompareFaces",
+            "printedName": "onFailToCompareFaces(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11FaceMatchFW07Comparea3AndB8DelegateP08onFailToD5Faces5errorySS_tF",
+            "mangledName": "$s11FaceMatchFW07Comparea3AndB8DelegateP08onFailToD5Faces5errorySS_tF",
+            "moduleName": "FaceMatchFW",
+            "genericSig": "<τ_0_0 where τ_0_0 : FaceMatchFW.CompareFaceAndMatchDelegate>",
+            "sugared_genericSig": "<Self where Self : FaceMatchFW.CompareFaceAndMatchDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11FaceMatchFW07Comparea3AndB8DelegateP",
+        "mangledName": "$s11FaceMatchFW07Comparea3AndB8DelegateP",
+        "moduleName": "FaceMatchFW",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FaceMatchDelegate",
+        "printedName": "FaceMatchDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onReceiveMatchResult",
+            "printedName": "onReceiveMatchResult(transactionID:similarity:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11FaceMatchFW0aB8DelegateP09onReceiveB6Result13transactionID10similarityySS_SdtF",
+            "mangledName": "$s11FaceMatchFW0aB8DelegateP09onReceiveB6Result13transactionID10similarityySS_SdtF",
+            "moduleName": "FaceMatchFW",
+            "genericSig": "<τ_0_0 where τ_0_0 : FaceMatchFW.FaceMatchDelegate>",
+            "sugared_genericSig": "<Self where Self : FaceMatchFW.FaceMatchDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onFailToMatchFaces",
+            "printedName": "onFailToMatchFaces(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11FaceMatchFW0aB8DelegateP08onFailToB5Faces5errorySS_tF",
+            "mangledName": "$s11FaceMatchFW0aB8DelegateP08onFailToB5Faces5errorySS_tF",
+            "moduleName": "FaceMatchFW",
+            "genericSig": "<τ_0_0 where τ_0_0 : FaceMatchFW.FaceMatchDelegate>",
+            "sugared_genericSig": "<Self where Self : FaceMatchFW.FaceMatchDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11FaceMatchFW0aB8DelegateP",
+        "mangledName": "$s11FaceMatchFW0aB8DelegateP",
+        "moduleName": "FaceMatchFW",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PersonalCodeSelfie",
+        "printedName": "PersonalCodeSelfie",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "PersonalCodeSelfieDelegate",
+            "printedName": "PersonalCodeSelfieDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any FaceMatchFW.PersonalCodeSelfieSDKDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PersonalCodeSelfieSDKDelegate",
+                    "printedName": "any FaceMatchFW.PersonalCodeSelfieSDKDelegate",
+                    "usr": "s:11FaceMatchFW29PersonalCodeSelfieSDKDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0deF8DelegateAA0deF11SDKDelegate_pSgvp",
+            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0deF8DelegateAA0deF11SDKDelegate_pSgvp",
+            "moduleName": "FaceMatchFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any FaceMatchFW.PersonalCodeSelfieSDKDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PersonalCodeSelfieSDKDelegate",
+                        "printedName": "any FaceMatchFW.PersonalCodeSelfieSDKDelegate",
+                        "usr": "s:11FaceMatchFW29PersonalCodeSelfieSDKDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0deF8DelegateAA0deF11SDKDelegate_pSgvg",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0deF8DelegateAA0deF11SDKDelegate_pSgvg",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any FaceMatchFW.PersonalCodeSelfieSDKDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PersonalCodeSelfieSDKDelegate",
+                        "printedName": "any FaceMatchFW.PersonalCodeSelfieSDKDelegate",
+                        "usr": "s:11FaceMatchFW29PersonalCodeSelfieSDKDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0deF8DelegateAA0deF11SDKDelegate_pSgvs",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0deF8DelegateAA0deF11SDKDelegate_pSgvs",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0deF8DelegateAA0deF11SDKDelegate_pSgvM",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0deF8DelegateAA0deF11SDKDelegate_pSgvM",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "faceMatchDelegate",
+            "printedName": "faceMatchDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any FaceMatchFW.FaceMatchDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FaceMatchDelegate",
+                    "printedName": "any FaceMatchFW.FaceMatchDelegate",
+                    "usr": "s:11FaceMatchFW0aB8DelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC04faceB8DelegateAA0abH0_pSgvp",
+            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC04faceB8DelegateAA0abH0_pSgvp",
+            "moduleName": "FaceMatchFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any FaceMatchFW.FaceMatchDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FaceMatchDelegate",
+                        "printedName": "any FaceMatchFW.FaceMatchDelegate",
+                        "usr": "s:11FaceMatchFW0aB8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC04faceB8DelegateAA0abH0_pSgvg",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC04faceB8DelegateAA0abH0_pSgvg",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any FaceMatchFW.FaceMatchDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FaceMatchDelegate",
+                        "printedName": "any FaceMatchFW.FaceMatchDelegate",
+                        "usr": "s:11FaceMatchFW0aB8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC04faceB8DelegateAA0abH0_pSgvs",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC04faceB8DelegateAA0abH0_pSgvs",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC04faceB8DelegateAA0abH0_pSgvM",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC04faceB8DelegateAA0abH0_pSgvM",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "compareFaceAndMatchDelegate",
+            "printedName": "compareFaceAndMatchDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any FaceMatchFW.CompareFaceAndMatchDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CompareFaceAndMatchDelegate",
+                    "printedName": "any FaceMatchFW.CompareFaceAndMatchDelegate",
+                    "usr": "s:11FaceMatchFW07Comparea3AndB8DelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC07comparea3AndB8DelegateAA07CompareahbI0_pSgvp",
+            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC07comparea3AndB8DelegateAA07CompareahbI0_pSgvp",
+            "moduleName": "FaceMatchFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any FaceMatchFW.CompareFaceAndMatchDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CompareFaceAndMatchDelegate",
+                        "printedName": "any FaceMatchFW.CompareFaceAndMatchDelegate",
+                        "usr": "s:11FaceMatchFW07Comparea3AndB8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC07comparea3AndB8DelegateAA07CompareahbI0_pSgvg",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC07comparea3AndB8DelegateAA07CompareahbI0_pSgvg",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any FaceMatchFW.CompareFaceAndMatchDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CompareFaceAndMatchDelegate",
+                        "printedName": "any FaceMatchFW.CompareFaceAndMatchDelegate",
+                        "usr": "s:11FaceMatchFW07Comparea3AndB8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC07comparea3AndB8DelegateAA07CompareahbI0_pSgvs",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC07comparea3AndB8DelegateAA07CompareahbI0_pSgvs",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC07comparea3AndB8DelegateAA07CompareahbI0_pSgvM",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC07comparea3AndB8DelegateAA07CompareahbI0_pSgvM",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PersonalCodeServiceURL",
+            "printedName": "PersonalCodeServiceURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE10ServiceURLSSvp",
+            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE10ServiceURLSSvp",
+            "moduleName": "FaceMatchFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE10ServiceURLSSvg",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE10ServiceURLSSvg",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE10ServiceURLSSvs",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE10ServiceURLSSvs",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE10ServiceURLSSvM",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE10ServiceURLSSvM",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PersonalCodeToken",
+            "printedName": "PersonalCodeToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE5TokenSSvp",
+            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE5TokenSSvp",
+            "moduleName": "FaceMatchFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE5TokenSSvg",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE5TokenSSvg",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE5TokenSSvs",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE5TokenSSvs",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE5TokenSSvM",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE5TokenSSvM",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PersonalCodeChangeCameraImage",
+            "printedName": "PersonalCodeChangeCameraImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE17ChangeCameraImageSo7UIImageCvp",
+            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE17ChangeCameraImageSo7UIImageCvp",
+            "moduleName": "FaceMatchFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE17ChangeCameraImageSo7UIImageCvg",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE17ChangeCameraImageSo7UIImageCvg",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE17ChangeCameraImageSo7UIImageCvs",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE17ChangeCameraImageSo7UIImageCvs",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE17ChangeCameraImageSo7UIImageCvM",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE17ChangeCameraImageSo7UIImageCvM",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PersonalCodeCloseCameraImage",
+            "printedName": "PersonalCodeCloseCameraImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE16CloseCameraImageSo7UIImageCSgvp",
+            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE16CloseCameraImageSo7UIImageCSgvp",
+            "moduleName": "FaceMatchFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE16CloseCameraImageSo7UIImageCSgvg",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE16CloseCameraImageSo7UIImageCSgvg",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE16CloseCameraImageSo7UIImageCSgvs",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE16CloseCameraImageSo7UIImageCSgvs",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE16CloseCameraImageSo7UIImageCSgvM",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE16CloseCameraImageSo7UIImageCSgvM",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PersonalCodeFlashOnImage",
+            "printedName": "PersonalCodeFlashOnImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE12FlashOnImageSo7UIImageCvp",
+            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE12FlashOnImageSo7UIImageCvp",
+            "moduleName": "FaceMatchFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE12FlashOnImageSo7UIImageCvg",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE12FlashOnImageSo7UIImageCvg",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE12FlashOnImageSo7UIImageCvs",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE12FlashOnImageSo7UIImageCvs",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE12FlashOnImageSo7UIImageCvM",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE12FlashOnImageSo7UIImageCvM",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PersonalCodeFlashOffImage",
+            "printedName": "PersonalCodeFlashOffImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE13FlashOffImageSo7UIImageCvp",
+            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE13FlashOffImageSo7UIImageCvp",
+            "moduleName": "FaceMatchFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE13FlashOffImageSo7UIImageCvg",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE13FlashOffImageSo7UIImageCvg",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE13FlashOffImageSo7UIImageCvs",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE13FlashOffImageSo7UIImageCvs",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE13FlashOffImageSo7UIImageCvM",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE13FlashOffImageSo7UIImageCvM",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PersonalCodeFontName",
+            "printedName": "PersonalCodeFontName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE8FontNameSSvp",
+            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE8FontNameSSvp",
+            "moduleName": "FaceMatchFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE8FontNameSSvg",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE8FontNameSSvg",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE8FontNameSSvs",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE8FontNameSSvs",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE8FontNameSSvM",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE8FontNameSSvM",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "enfocaRostro",
+            "printedName": "enfocaRostro",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC12enfocaRostroSSvp",
+            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC12enfocaRostroSSvp",
+            "moduleName": "FaceMatchFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC12enfocaRostroSSvg",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC12enfocaRostroSSvg",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC12enfocaRostroSSvs",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC12enfocaRostroSSvs",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC12enfocaRostroSSvM",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC12enfocaRostroSSvM",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PersonalCodeColorSniper",
+            "printedName": "PersonalCodeColorSniper",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE11ColorSniperSSvp",
+            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE11ColorSniperSSvp",
+            "moduleName": "FaceMatchFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE11ColorSniperSSvg",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE11ColorSniperSSvg",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE11ColorSniperSSvs",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE11ColorSniperSSvs",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE11ColorSniperSSvM",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE11ColorSniperSSvM",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PersonalCodeColorHighlight",
+            "printedName": "PersonalCodeColorHighlight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE14ColorHighlightSSvp",
+            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE14ColorHighlightSSvp",
+            "moduleName": "FaceMatchFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE14ColorHighlightSSvg",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE14ColorHighlightSSvg",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE14ColorHighlightSSvs",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE14ColorHighlightSSvs",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE14ColorHighlightSSvM",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE14ColorHighlightSSvM",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PersonalCodeIsRotateCameraEnabled",
+            "printedName": "PersonalCodeIsRotateCameraEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE21IsRotateCameraEnabledSbvp",
+            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE21IsRotateCameraEnabledSbvp",
+            "moduleName": "FaceMatchFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE21IsRotateCameraEnabledSbvg",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE21IsRotateCameraEnabledSbvg",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE21IsRotateCameraEnabledSbvs",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE21IsRotateCameraEnabledSbvs",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE21IsRotateCameraEnabledSbvM",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE21IsRotateCameraEnabledSbvM",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "usingFrontCamera",
+            "printedName": "usingFrontCamera",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC16usingFrontCameraSbvp",
+            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC16usingFrontCameraSbvp",
+            "moduleName": "FaceMatchFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC16usingFrontCameraSbvg",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC16usingFrontCameraSbvg",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC16usingFrontCameraSbvs",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC16usingFrontCameraSbvs",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC16usingFrontCameraSbvM",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC16usingFrontCameraSbvM",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PersonalCodeColorFontLigth",
+            "printedName": "PersonalCodeColorFontLigth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE14ColorFontLigthSSvp",
+            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE14ColorFontLigthSSvp",
+            "moduleName": "FaceMatchFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE14ColorFontLigthSSvg",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE14ColorFontLigthSSvg",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE14ColorFontLigthSSvs",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE14ColorFontLigthSSvs",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE14ColorFontLigthSSvM",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE14ColorFontLigthSSvM",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PersonalCodeColorFontDark",
+            "printedName": "PersonalCodeColorFontDark",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE13ColorFontDarkSSvp",
+            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE13ColorFontDarkSSvp",
+            "moduleName": "FaceMatchFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE13ColorFontDarkSSvg",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE13ColorFontDarkSSvg",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE13ColorFontDarkSSvs",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE13ColorFontDarkSSvs",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE13ColorFontDarkSSvM",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE13ColorFontDarkSSvM",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PersonalCodeSettingsFont",
+            "printedName": "PersonalCodeSettingsFont",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE12SettingsFontSSvp",
+            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE12SettingsFontSSvp",
+            "moduleName": "FaceMatchFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE12SettingsFontSSvg",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE12SettingsFontSSvg",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE12SettingsFontSSvs",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE12SettingsFontSSvs",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE12SettingsFontSSvM",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE12SettingsFontSSvM",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PersonalCodeColorUpBar",
+            "printedName": "PersonalCodeColorUpBar",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE10ColorUpBarSSvp",
+            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE10ColorUpBarSSvp",
+            "moduleName": "FaceMatchFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE10ColorUpBarSSvg",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE10ColorUpBarSSvg",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE10ColorUpBarSSvs",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE10ColorUpBarSSvs",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE10ColorUpBarSSvM",
+                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE10ColorUpBarSSvM",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "captureFace",
+            "printedName": "captureFace()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC07captureA0yyF",
+            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC07captureA0yyF",
+            "moduleName": "FaceMatchFW",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "captureFaceAndMatch",
+            "printedName": "captureFaceAndMatch(image:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC07capturea3AndB05imageySo7UIImageC_tF",
+            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC07capturea3AndB05imageySo7UIImageC_tF",
+            "moduleName": "FaceMatchFW",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unload",
+            "printedName": "unload(completion:animated:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC6unload10completion8animatedyyycSg_SbtF",
+            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC6unload10completion8animatedyyycSg_SbtF",
+            "moduleName": "FaceMatchFW",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "captureOutput",
+            "printedName": "captureOutput(_:didOutput:from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureOutput",
+                "printedName": "AVFoundation.AVCaptureOutput",
+                "usr": "c:objc(cs)AVCaptureOutput"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMSampleBuffer",
+                "printedName": "CoreMedia.CMSampleBuffer",
+                "usr": "c:@T@CMSampleBufferRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureConnection",
+                "printedName": "AVFoundation.AVCaptureConnection",
+                "usr": "c:objc(cs)AVCaptureConnection"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FaceMatchFW@objc(cs)PersonalCodeSelfie(im)captureOutput:didOutputSampleBuffer:fromConnection:",
+            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC13captureOutput_03didH04fromySo09AVCaptureH0C_So17CMSampleBufferRefaSo0K10ConnectionCtF",
+            "moduleName": "FaceMatchFW",
+            "objc_name": "captureOutput:didOutputSampleBuffer:fromConnection:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setmaskColor",
+            "printedName": "setmaskColor(maskHexColor:arrowHexColor:textHexColor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC12setmaskColor07maskHexH005arrowjH004textjH0ySS_S2StF",
+            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC12setmaskColor07maskHexH005arrowjH004textjH0ySS_S2StF",
+            "moduleName": "FaceMatchFW",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceiveMemoryWarning",
+            "printedName": "didReceiveMemoryWarning()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FaceMatchFW@objc(cs)PersonalCodeSelfie(im)didReceiveMemoryWarning",
+            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC23didReceiveMemoryWarningyyF",
+            "moduleName": "FaceMatchFW",
+            "overriding": true,
+            "objc_name": "didReceiveMemoryWarning",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "matchFaces",
+            "printedName": "matchFaces(image1:image2:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC10matchFaces6image16image2ySo7UIImageC_AHtF",
+            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC10matchFaces6image16image2ySo7UIImageC_AHtF",
+            "moduleName": "FaceMatchFW",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@FaceMatchFW@objc(cs)PersonalCodeSelfie",
+        "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC",
+        "moduleName": "FaceMatchFW",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceMatchFW",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FaceMatchFW"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreImage",
+        "printedName": "CoreImage",
+        "declKind": "Import",
+        "moduleName": "FaceMatchFW"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
+      "kind": "StringLiteral",
+      "offset": 1026,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
+      "kind": "StringLiteral",
+      "offset": 1072,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
+      "kind": "StringLiteral",
+      "offset": 1208,
+      "length": 7,
+      "value": "\"xmark\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
+      "kind": "StringLiteral",
+      "offset": 1368,
+      "length": 9,
+      "value": "\"Verdana\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
+      "kind": "StringLiteral",
+      "offset": 1408,
+      "length": 18,
+      "value": "\"Enfoca el Rostro\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
+      "kind": "StringLiteral",
+      "offset": 1475,
+      "length": 9,
+      "value": "\"#FFFFFF\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
+      "kind": "StringLiteral",
+      "offset": 1536,
+      "length": 9,
+      "value": "\"#74D288\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1603,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1642,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
+      "kind": "StringLiteral",
+      "offset": 1699,
+      "length": 9,
+      "value": "\"#FFFFFF\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
+      "kind": "StringLiteral",
+      "offset": 1759,
+      "length": 9,
+      "value": "\"#000000\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
+      "kind": "StringLiteral",
+      "offset": 1820,
+      "length": 7,
+      "value": "\"Arial\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
+      "kind": "StringLiteral",
+      "offset": 1875,
+      "length": 9,
+      "value": "\"#000000\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3069,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5598,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8146,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8185,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20737,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20909,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20940,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20968,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29965,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29994,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
+      "kind": "FloatLiteral",
+      "offset": 35046,
+      "length": 3,
+      "value": "1.0"
+    }
+  ]
+}
