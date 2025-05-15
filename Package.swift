@@ -6,6 +6,7 @@ let package = Package(
     platforms: [
         .iOS(.v16) // o la versión mínima que soporte tu xcframework
     ],
+    
     products: [
         .library(
             name: "FaceMatchFW",

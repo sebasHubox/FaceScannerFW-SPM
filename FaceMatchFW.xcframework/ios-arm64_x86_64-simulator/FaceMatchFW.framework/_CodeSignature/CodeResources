@@ -10,7 +10,7 @@
 		</data>
 		<key>Modules/FaceMatchFW.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		gShDPTWlepo7qyBYRxTTXOMYCJ4=
+		4Rf2fRBwODxZz7n2UX0fxn3u3Yw=
 		</data>
 		<key>Modules/FaceMatchFW.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/FaceMatchFW.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		gShDPTWlepo7qyBYRxTTXOMYCJ4=
+		4Rf2fRBwODxZz7n2UX0fxn3u3Yw=
 		</data>
 		<key>Modules/FaceMatchFW.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -55,7 +55,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wX2cNuXDjUkjAA2WH0C/3agqYLsq4AtWJ75GmjrOD1c=
+			Vx4rNFccb0cTWGccuP43NOsE3tObPwBrsCnsXUhYIGo=
 			</data>
 		</dict>
 		<key>Modules/FaceMatchFW.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -90,7 +90,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wX2cNuXDjUkjAA2WH0C/3agqYLsq4AtWJ75GmjrOD1c=
+			Vx4rNFccb0cTWGccuP43NOsE3tObPwBrsCnsXUhYIGo=
 			</data>
 		</dict>
 		<key>Modules/FaceMatchFW.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
