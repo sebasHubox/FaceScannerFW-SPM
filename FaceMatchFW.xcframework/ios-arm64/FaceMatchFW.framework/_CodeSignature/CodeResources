@@ -6,27 +6,27 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		P2yZ93RMQoqdx4GOFwXNDCmQcPI=
+		cZSObkL0q1HqCLGH+LITSgzCPkc=
 		</data>
 		<key>Modules/FaceMatchFW.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		MNYTvI+hWnyhGzQRYh5lPGrcyq4=
+		j3EkJplqgmgk1+ex6Br611S20Nc=
 		</data>
 		<key>Modules/FaceMatchFW.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		lMRdhSNSHEtCqoVb/Rf03ygezOM=
+		ZKSLGGUbiznvR32b4swPH+dPfuI=
 		</data>
 		<key>Modules/FaceMatchFW.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		p2XKPRUzFXtg/dzLvotsG6Q9SsM=
+		mdfdmxw5Wm4En2gJ5BDMNyy0F7M=
 		</data>
 		<key>Modules/FaceMatchFW.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		lMRdhSNSHEtCqoVb/Rf03ygezOM=
+		ZKSLGGUbiznvR32b4swPH+dPfuI=
 		</data>
 		<key>Modules/FaceMatchFW.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		a5QtMzbPgebmaVJFa69xid5V5Ms=
+		26pUi7qiM2NbMm0Fhtcqg+Y0zRk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -35,35 +35,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xvq+EYzRfCR8mu9joT84L/d2kDAvwKxVP4j79FN2tZs=
+			5+tAiX436xp45ELqBXPi2LvoZAlh3eAMcbqjLT1MPng=
 			</data>
 		</dict>
 		<key>Modules/FaceMatchFW.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tG7+aVKdFR7JAiAojK2YyUINhBI2TQfy3IiWaH2q/7E=
+			1l4TYmKo6t4+pLoJphgKrXG46UV3bTRcTCW/fsOr1yk=
 			</data>
 		</dict>
 		<key>Modules/FaceMatchFW.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Rf5/Fv60ri8GXIbRD2Qk2xLEo4aw65Dho+xzKG0oZOY=
+			jcHjH6AHL/EuifXwizvnwbjXv3qJIfljPHbz08zBMeY=
 			</data>
 		</dict>
 		<key>Modules/FaceMatchFW.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tG7+aVKdFR7JAiAojK2YyUINhBI2TQfy3IiWaH2q/7E=
+			1l4TYmKo6t4+pLoJphgKrXG46UV3bTRcTCW/fsOr1yk=
 			</data>
 		</dict>
 		<key>Modules/FaceMatchFW.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mQ/FKKpszXX4OzKVKzksQr4NUk0cVgs8mPxnW034gJI=
+			H8RoO6wyEz3VVKKmcIRQfDNfT9yRtxu6BrrLVfcypdg=
 			</data>
 		</dict>
 	</dict>

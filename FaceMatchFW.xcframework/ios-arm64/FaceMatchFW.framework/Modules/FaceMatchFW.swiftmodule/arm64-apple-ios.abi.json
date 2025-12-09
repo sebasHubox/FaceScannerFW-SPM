@@ -22,6 +22,235 @@
         "moduleName": "FaceMatchFW"
       },
       {
+        "kind": "TypeDecl",
+        "name": "CustomDataSend",
+        "printedName": "CustomDataSend",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CustomDataSend",
+                "printedName": "FaceMatchFW.CustomDataSend",
+                "usr": "s:11FaceMatchFW14CustomDataSendV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11FaceMatchFW14CustomDataSendVACycfc",
+            "mangledName": "$s11FaceMatchFW14CustomDataSendVACycfc",
+            "moduleName": "FaceMatchFW",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CustomDataSend",
+                "printedName": "FaceMatchFW.CustomDataSend",
+                "usr": "s:11FaceMatchFW14CustomDataSendV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11FaceMatchFW14CustomDataSendV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11FaceMatchFW14CustomDataSendV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "FaceMatchFW",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11FaceMatchFW14CustomDataSendV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s11FaceMatchFW14CustomDataSendV6encode2toys7Encoder_p_tKF",
+            "moduleName": "FaceMatchFW",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11FaceMatchFW14CustomDataSendV",
+        "mangledName": "$s11FaceMatchFW14CustomDataSendV",
+        "moduleName": "FaceMatchFW",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "deviceData",
+        "printedName": "deviceData",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "deviceData",
+                "printedName": "FaceMatchFW.deviceData",
+                "usr": "s:11FaceMatchFW10deviceDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11FaceMatchFW10deviceDataV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11FaceMatchFW10deviceDataV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "FaceMatchFW",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11FaceMatchFW10deviceDataV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s11FaceMatchFW10deviceDataV6encode2toys7Encoder_p_tKF",
+            "moduleName": "FaceMatchFW",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11FaceMatchFW10deviceDataV",
+        "mangledName": "$s11FaceMatchFW10deviceDataV",
+        "moduleName": "FaceMatchFW",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceMatchFW",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FaceMatchFW"
+      },
+      {
         "kind": "Import",
         "name": "CoreImage",
         "printedName": "CoreImage",
@@ -91,14 +320,28 @@
         "moduleName": "FaceMatchFW"
       },
       {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "FaceMatchFW"
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "FaceMatchFW"
+      },
+      {
         "kind": "TypeDecl",
         "name": "PersonalCodeSelfieSDKDelegate",
         "printedName": "PersonalCodeSelfieSDKDelegate",
         "children": [
           {
             "kind": "Function",
-            "name": "onCaptureSelfie",
-            "printedName": "onCaptureSelfie(image:)",
+            "name": "onSuccess",
+            "printedName": "onSuccess(image:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -113,8 +356,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11FaceMatchFW29PersonalCodeSelfieSDKDelegateP09onCaptureF05imageySo7UIImageC_tF",
-            "mangledName": "$s11FaceMatchFW29PersonalCodeSelfieSDKDelegateP09onCaptureF05imageySo7UIImageC_tF",
+            "usr": "s:11FaceMatchFW29PersonalCodeSelfieSDKDelegateP9onSuccess5imageySo7UIImageC_tF",
+            "mangledName": "$s11FaceMatchFW29PersonalCodeSelfieSDKDelegateP9onSuccess5imageySo7UIImageC_tF",
             "moduleName": "FaceMatchFW",
             "genericSig": "<τ_0_0 where τ_0_0 : FaceMatchFW.PersonalCodeSelfieSDKDelegate>",
             "sugared_genericSig": "<Self where Self : FaceMatchFW.PersonalCodeSelfieSDKDelegate>",
@@ -154,8 +397,8 @@
         "children": [
           {
             "kind": "Function",
-            "name": "onCompareFaceAndMatchResult",
-            "printedName": "onCompareFaceAndMatchResult(transactionID:similarity:)",
+            "name": "onSuccess",
+            "printedName": "onSuccess(match:similarity:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -164,9 +407,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               },
               {
                 "kind": "TypeNominal",
@@ -176,8 +419,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11FaceMatchFW07Comparea3AndB8DelegateP02ondaeB6Result13transactionID10similarityySS_SdtF",
-            "mangledName": "$s11FaceMatchFW07Comparea3AndB8DelegateP02ondaeB6Result13transactionID10similarityySS_SdtF",
+            "usr": "s:11FaceMatchFW07Comparea3AndB8DelegateP9onSuccess5match10similarityySb_SdtF",
+            "mangledName": "$s11FaceMatchFW07Comparea3AndB8DelegateP9onSuccess5match10similarityySb_SdtF",
             "moduleName": "FaceMatchFW",
             "genericSig": "<τ_0_0 where τ_0_0 : FaceMatchFW.CompareFaceAndMatchDelegate>",
             "sugared_genericSig": "<Self where Self : FaceMatchFW.CompareFaceAndMatchDelegate>",
@@ -187,13 +430,19 @@
           },
           {
             "kind": "Function",
-            "name": "onFailToCompareFaces",
-            "printedName": "onFailToCompareFaces(error:)",
+            "name": "onError",
+            "printedName": "onError(status:description:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
               },
               {
                 "kind": "TypeNominal",
@@ -203,8 +452,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11FaceMatchFW07Comparea3AndB8DelegateP08onFailToD5Faces5errorySS_tF",
-            "mangledName": "$s11FaceMatchFW07Comparea3AndB8DelegateP08onFailToD5Faces5errorySS_tF",
+            "usr": "s:11FaceMatchFW07Comparea3AndB8DelegateP7onError6status11descriptionySi_SStF",
+            "mangledName": "$s11FaceMatchFW07Comparea3AndB8DelegateP7onError6status11descriptionySi_SStF",
             "moduleName": "FaceMatchFW",
             "genericSig": "<τ_0_0 where τ_0_0 : FaceMatchFW.CompareFaceAndMatchDelegate>",
             "sugared_genericSig": "<Self where Self : FaceMatchFW.CompareFaceAndMatchDelegate>",
@@ -239,98 +488,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "FaceMatchDelegate",
-        "printedName": "FaceMatchDelegate",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "onReceiveMatchResult",
-            "printedName": "onReceiveMatchResult(transactionID:similarity:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11FaceMatchFW0aB8DelegateP09onReceiveB6Result13transactionID10similarityySS_SdtF",
-            "mangledName": "$s11FaceMatchFW0aB8DelegateP09onReceiveB6Result13transactionID10similarityySS_SdtF",
-            "moduleName": "FaceMatchFW",
-            "genericSig": "<τ_0_0 where τ_0_0 : FaceMatchFW.FaceMatchDelegate>",
-            "sugared_genericSig": "<Self where Self : FaceMatchFW.FaceMatchDelegate>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onFailToMatchFaces",
-            "printedName": "onFailToMatchFaces(error:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11FaceMatchFW0aB8DelegateP08onFailToB5Faces5errorySS_tF",
-            "mangledName": "$s11FaceMatchFW0aB8DelegateP08onFailToB5Faces5errorySS_tF",
-            "moduleName": "FaceMatchFW",
-            "genericSig": "<τ_0_0 where τ_0_0 : FaceMatchFW.FaceMatchDelegate>",
-            "sugared_genericSig": "<Self where Self : FaceMatchFW.FaceMatchDelegate>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:11FaceMatchFW0aB8DelegateP",
-        "mangledName": "$s11FaceMatchFW0aB8DelegateP",
-        "moduleName": "FaceMatchFW",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "PersonalCodeSelfie",
-        "printedName": "PersonalCodeSelfie",
+        "name": "FaceMatchOnline",
+        "printedName": "FaceMatchOnline",
         "children": [
           {
             "kind": "Var",
@@ -353,8 +512,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0deF8DelegateAA0deF11SDKDelegate_pSgvp",
-            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0deF8DelegateAA0deF11SDKDelegate_pSgvp",
+            "usr": "s:11FaceMatchFW0aB6OnlineC26PersonalCodeSelfieDelegateAA0efG11SDKDelegate_pSgvp",
+            "mangledName": "$s11FaceMatchFW0aB6OnlineC26PersonalCodeSelfieDelegateAA0efG11SDKDelegate_pSgvp",
             "moduleName": "FaceMatchFW",
             "declAttributes": [
               "HasInitialValue",
@@ -386,8 +545,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0deF8DelegateAA0deF11SDKDelegate_pSgvg",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0deF8DelegateAA0deF11SDKDelegate_pSgvg",
+                "usr": "s:11FaceMatchFW0aB6OnlineC26PersonalCodeSelfieDelegateAA0efG11SDKDelegate_pSgvg",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC26PersonalCodeSelfieDelegateAA0efG11SDKDelegate_pSgvg",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -418,8 +577,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0deF8DelegateAA0deF11SDKDelegate_pSgvs",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0deF8DelegateAA0deF11SDKDelegate_pSgvs",
+                "usr": "s:11FaceMatchFW0aB6OnlineC26PersonalCodeSelfieDelegateAA0efG11SDKDelegate_pSgvs",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC26PersonalCodeSelfieDelegateAA0efG11SDKDelegate_pSgvs",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -436,120 +595,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0deF8DelegateAA0deF11SDKDelegate_pSgvM",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0deF8DelegateAA0deF11SDKDelegate_pSgvM",
-                "moduleName": "FaceMatchFW",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "faceMatchDelegate",
-            "printedName": "faceMatchDelegate",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any FaceMatchFW.FaceMatchDelegate)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FaceMatchDelegate",
-                    "printedName": "any FaceMatchFW.FaceMatchDelegate",
-                    "usr": "s:11FaceMatchFW0aB8DelegateP"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC04faceB8DelegateAA0abH0_pSgvp",
-            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC04faceB8DelegateAA0abH0_pSgvp",
-            "moduleName": "FaceMatchFW",
-            "declAttributes": [
-              "HasInitialValue",
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any FaceMatchFW.FaceMatchDelegate)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FaceMatchDelegate",
-                        "printedName": "any FaceMatchFW.FaceMatchDelegate",
-                        "usr": "s:11FaceMatchFW0aB8DelegateP"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC04faceB8DelegateAA0abH0_pSgvg",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC04faceB8DelegateAA0abH0_pSgvg",
-                "moduleName": "FaceMatchFW",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any FaceMatchFW.FaceMatchDelegate)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FaceMatchDelegate",
-                        "printedName": "any FaceMatchFW.FaceMatchDelegate",
-                        "usr": "s:11FaceMatchFW0aB8DelegateP"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC04faceB8DelegateAA0abH0_pSgvs",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC04faceB8DelegateAA0abH0_pSgvs",
-                "moduleName": "FaceMatchFW",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC04faceB8DelegateAA0abH0_pSgvM",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC04faceB8DelegateAA0abH0_pSgvM",
+                "usr": "s:11FaceMatchFW0aB6OnlineC26PersonalCodeSelfieDelegateAA0efG11SDKDelegate_pSgvM",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC26PersonalCodeSelfieDelegateAA0efG11SDKDelegate_pSgvM",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -577,15 +624,16 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC07comparea3AndB8DelegateAA07CompareahbI0_pSgvp",
-            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC07comparea3AndB8DelegateAA07CompareahbI0_pSgvp",
+            "usr": "s:11FaceMatchFW0aB6OnlineC07comparea3AndB8DelegateAA07CompareafbG0_pSgvp",
+            "mangledName": "$s11FaceMatchFW0aB6OnlineC07comparea3AndB8DelegateAA07CompareafbG0_pSgvp",
             "moduleName": "FaceMatchFW",
             "declAttributes": [
               "HasInitialValue",
               "Preconcurrency",
               "Custom",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -610,8 +658,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC07comparea3AndB8DelegateAA07CompareahbI0_pSgvg",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC07comparea3AndB8DelegateAA07CompareahbI0_pSgvg",
+                "usr": "s:11FaceMatchFW0aB6OnlineC07comparea3AndB8DelegateAA07CompareafbG0_pSgvg",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC07comparea3AndB8DelegateAA07CompareafbG0_pSgvg",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -642,8 +690,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC07comparea3AndB8DelegateAA07CompareahbI0_pSgvs",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC07comparea3AndB8DelegateAA07CompareahbI0_pSgvs",
+                "usr": "s:11FaceMatchFW0aB6OnlineC07comparea3AndB8DelegateAA07CompareafbG0_pSgvs",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC07comparea3AndB8DelegateAA07CompareafbG0_pSgvs",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -660,8 +708,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC07comparea3AndB8DelegateAA07CompareahbI0_pSgvM",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC07comparea3AndB8DelegateAA07CompareahbI0_pSgvM",
+                "usr": "s:11FaceMatchFW0aB6OnlineC07comparea3AndB8DelegateAA07CompareafbG0_pSgvM",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC07comparea3AndB8DelegateAA07CompareafbG0_pSgvM",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -681,8 +729,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE10ServiceURLSSvp",
-            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE10ServiceURLSSvp",
+            "usr": "s:11FaceMatchFW0aB6OnlineC22PersonalCodeServiceURLSSvp",
+            "mangledName": "$s11FaceMatchFW0aB6OnlineC22PersonalCodeServiceURLSSvp",
             "moduleName": "FaceMatchFW",
             "declAttributes": [
               "HasInitialValue",
@@ -706,8 +754,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE10ServiceURLSSvg",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE10ServiceURLSSvg",
+                "usr": "s:11FaceMatchFW0aB6OnlineC22PersonalCodeServiceURLSSvg",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC22PersonalCodeServiceURLSSvg",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -730,8 +778,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE10ServiceURLSSvs",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE10ServiceURLSSvs",
+                "usr": "s:11FaceMatchFW0aB6OnlineC22PersonalCodeServiceURLSSvs",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC22PersonalCodeServiceURLSSvs",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -748,8 +796,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE10ServiceURLSSvM",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE10ServiceURLSSvM",
+                "usr": "s:11FaceMatchFW0aB6OnlineC22PersonalCodeServiceURLSSvM",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC22PersonalCodeServiceURLSSvM",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -758,8 +806,8 @@
           },
           {
             "kind": "Var",
-            "name": "PersonalCodeToken",
-            "printedName": "PersonalCodeToken",
+            "name": "PersonalCodeAccessKey",
+            "printedName": "PersonalCodeAccessKey",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -769,8 +817,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE5TokenSSvp",
-            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE5TokenSSvp",
+            "usr": "s:11FaceMatchFW0aB6OnlineC21PersonalCodeAccessKeySSvp",
+            "mangledName": "$s11FaceMatchFW0aB6OnlineC21PersonalCodeAccessKeySSvp",
             "moduleName": "FaceMatchFW",
             "declAttributes": [
               "HasInitialValue",
@@ -794,8 +842,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE5TokenSSvg",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE5TokenSSvg",
+                "usr": "s:11FaceMatchFW0aB6OnlineC21PersonalCodeAccessKeySSvg",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC21PersonalCodeAccessKeySSvg",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -818,8 +866,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE5TokenSSvs",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE5TokenSSvs",
+                "usr": "s:11FaceMatchFW0aB6OnlineC21PersonalCodeAccessKeySSvs",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC21PersonalCodeAccessKeySSvs",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -836,8 +884,184 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE5TokenSSvM",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE5TokenSSvM",
+                "usr": "s:11FaceMatchFW0aB6OnlineC21PersonalCodeAccessKeySSvM",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC21PersonalCodeAccessKeySSvM",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PersonalCodeSecretKey",
+            "printedName": "PersonalCodeSecretKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FaceMatchFW0aB6OnlineC21PersonalCodeSecretKeySSvp",
+            "mangledName": "$s11FaceMatchFW0aB6OnlineC21PersonalCodeSecretKeySSvp",
+            "moduleName": "FaceMatchFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW0aB6OnlineC21PersonalCodeSecretKeySSvg",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC21PersonalCodeSecretKeySSvg",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW0aB6OnlineC21PersonalCodeSecretKeySSvs",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC21PersonalCodeSecretKeySSvs",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW0aB6OnlineC21PersonalCodeSecretKeySSvM",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC21PersonalCodeSecretKeySSvM",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "PersonalCodePublicKey",
+            "printedName": "PersonalCodePublicKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11FaceMatchFW0aB6OnlineC21PersonalCodePublicKeySSvp",
+            "mangledName": "$s11FaceMatchFW0aB6OnlineC21PersonalCodePublicKeySSvp",
+            "moduleName": "FaceMatchFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW0aB6OnlineC21PersonalCodePublicKeySSvg",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC21PersonalCodePublicKeySSvg",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW0aB6OnlineC21PersonalCodePublicKeySSvs",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC21PersonalCodePublicKeySSvs",
+                "moduleName": "FaceMatchFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11FaceMatchFW0aB6OnlineC21PersonalCodePublicKeySSvM",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC21PersonalCodePublicKeySSvM",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -857,8 +1081,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE17ChangeCameraImageSo7UIImageCvp",
-            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE17ChangeCameraImageSo7UIImageCvp",
+            "usr": "s:11FaceMatchFW0aB6OnlineC29PersonalCodeChangeCameraImageSo7UIImageCvp",
+            "mangledName": "$s11FaceMatchFW0aB6OnlineC29PersonalCodeChangeCameraImageSo7UIImageCvp",
             "moduleName": "FaceMatchFW",
             "declAttributes": [
               "HasInitialValue",
@@ -882,8 +1106,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE17ChangeCameraImageSo7UIImageCvg",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE17ChangeCameraImageSo7UIImageCvg",
+                "usr": "s:11FaceMatchFW0aB6OnlineC29PersonalCodeChangeCameraImageSo7UIImageCvg",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC29PersonalCodeChangeCameraImageSo7UIImageCvg",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -906,8 +1130,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE17ChangeCameraImageSo7UIImageCvs",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE17ChangeCameraImageSo7UIImageCvs",
+                "usr": "s:11FaceMatchFW0aB6OnlineC29PersonalCodeChangeCameraImageSo7UIImageCvs",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC29PersonalCodeChangeCameraImageSo7UIImageCvs",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -924,8 +1148,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE17ChangeCameraImageSo7UIImageCvM",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE17ChangeCameraImageSo7UIImageCvM",
+                "usr": "s:11FaceMatchFW0aB6OnlineC29PersonalCodeChangeCameraImageSo7UIImageCvM",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC29PersonalCodeChangeCameraImageSo7UIImageCvM",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -953,8 +1177,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE16CloseCameraImageSo7UIImageCSgvp",
-            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE16CloseCameraImageSo7UIImageCSgvp",
+            "usr": "s:11FaceMatchFW0aB6OnlineC28PersonalCodeCloseCameraImageSo7UIImageCSgvp",
+            "mangledName": "$s11FaceMatchFW0aB6OnlineC28PersonalCodeCloseCameraImageSo7UIImageCSgvp",
             "moduleName": "FaceMatchFW",
             "declAttributes": [
               "HasInitialValue",
@@ -986,8 +1210,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE16CloseCameraImageSo7UIImageCSgvg",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE16CloseCameraImageSo7UIImageCSgvg",
+                "usr": "s:11FaceMatchFW0aB6OnlineC28PersonalCodeCloseCameraImageSo7UIImageCSgvg",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC28PersonalCodeCloseCameraImageSo7UIImageCSgvg",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1018,8 +1242,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE16CloseCameraImageSo7UIImageCSgvs",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE16CloseCameraImageSo7UIImageCSgvs",
+                "usr": "s:11FaceMatchFW0aB6OnlineC28PersonalCodeCloseCameraImageSo7UIImageCSgvs",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC28PersonalCodeCloseCameraImageSo7UIImageCSgvs",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1036,8 +1260,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE16CloseCameraImageSo7UIImageCSgvM",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE16CloseCameraImageSo7UIImageCSgvM",
+                "usr": "s:11FaceMatchFW0aB6OnlineC28PersonalCodeCloseCameraImageSo7UIImageCSgvM",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC28PersonalCodeCloseCameraImageSo7UIImageCSgvM",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1057,8 +1281,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE12FlashOnImageSo7UIImageCvp",
-            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE12FlashOnImageSo7UIImageCvp",
+            "usr": "s:11FaceMatchFW0aB6OnlineC24PersonalCodeFlashOnImageSo7UIImageCvp",
+            "mangledName": "$s11FaceMatchFW0aB6OnlineC24PersonalCodeFlashOnImageSo7UIImageCvp",
             "moduleName": "FaceMatchFW",
             "declAttributes": [
               "HasInitialValue",
@@ -1082,8 +1306,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE12FlashOnImageSo7UIImageCvg",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE12FlashOnImageSo7UIImageCvg",
+                "usr": "s:11FaceMatchFW0aB6OnlineC24PersonalCodeFlashOnImageSo7UIImageCvg",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC24PersonalCodeFlashOnImageSo7UIImageCvg",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1106,8 +1330,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE12FlashOnImageSo7UIImageCvs",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE12FlashOnImageSo7UIImageCvs",
+                "usr": "s:11FaceMatchFW0aB6OnlineC24PersonalCodeFlashOnImageSo7UIImageCvs",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC24PersonalCodeFlashOnImageSo7UIImageCvs",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1124,8 +1348,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE12FlashOnImageSo7UIImageCvM",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE12FlashOnImageSo7UIImageCvM",
+                "usr": "s:11FaceMatchFW0aB6OnlineC24PersonalCodeFlashOnImageSo7UIImageCvM",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC24PersonalCodeFlashOnImageSo7UIImageCvM",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1145,8 +1369,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE13FlashOffImageSo7UIImageCvp",
-            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE13FlashOffImageSo7UIImageCvp",
+            "usr": "s:11FaceMatchFW0aB6OnlineC25PersonalCodeFlashOffImageSo7UIImageCvp",
+            "mangledName": "$s11FaceMatchFW0aB6OnlineC25PersonalCodeFlashOffImageSo7UIImageCvp",
             "moduleName": "FaceMatchFW",
             "declAttributes": [
               "HasInitialValue",
@@ -1170,8 +1394,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE13FlashOffImageSo7UIImageCvg",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE13FlashOffImageSo7UIImageCvg",
+                "usr": "s:11FaceMatchFW0aB6OnlineC25PersonalCodeFlashOffImageSo7UIImageCvg",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC25PersonalCodeFlashOffImageSo7UIImageCvg",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1194,8 +1418,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE13FlashOffImageSo7UIImageCvs",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE13FlashOffImageSo7UIImageCvs",
+                "usr": "s:11FaceMatchFW0aB6OnlineC25PersonalCodeFlashOffImageSo7UIImageCvs",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC25PersonalCodeFlashOffImageSo7UIImageCvs",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1212,8 +1436,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE13FlashOffImageSo7UIImageCvM",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE13FlashOffImageSo7UIImageCvM",
+                "usr": "s:11FaceMatchFW0aB6OnlineC25PersonalCodeFlashOffImageSo7UIImageCvM",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC25PersonalCodeFlashOffImageSo7UIImageCvM",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1233,8 +1457,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE8FontNameSSvp",
-            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE8FontNameSSvp",
+            "usr": "s:11FaceMatchFW0aB6OnlineC20PersonalCodeFontNameSSvp",
+            "mangledName": "$s11FaceMatchFW0aB6OnlineC20PersonalCodeFontNameSSvp",
             "moduleName": "FaceMatchFW",
             "declAttributes": [
               "HasInitialValue",
@@ -1258,8 +1482,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE8FontNameSSvg",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE8FontNameSSvg",
+                "usr": "s:11FaceMatchFW0aB6OnlineC20PersonalCodeFontNameSSvg",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC20PersonalCodeFontNameSSvg",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1282,8 +1506,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE8FontNameSSvs",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE8FontNameSSvs",
+                "usr": "s:11FaceMatchFW0aB6OnlineC20PersonalCodeFontNameSSvs",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC20PersonalCodeFontNameSSvs",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1300,8 +1524,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE8FontNameSSvM",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE8FontNameSSvM",
+                "usr": "s:11FaceMatchFW0aB6OnlineC20PersonalCodeFontNameSSvM",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC20PersonalCodeFontNameSSvM",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1321,8 +1545,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC12enfocaRostroSSvp",
-            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC12enfocaRostroSSvp",
+            "usr": "s:11FaceMatchFW0aB6OnlineC12enfocaRostroSSvp",
+            "mangledName": "$s11FaceMatchFW0aB6OnlineC12enfocaRostroSSvp",
             "moduleName": "FaceMatchFW",
             "declAttributes": [
               "HasInitialValue",
@@ -1346,8 +1570,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC12enfocaRostroSSvg",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC12enfocaRostroSSvg",
+                "usr": "s:11FaceMatchFW0aB6OnlineC12enfocaRostroSSvg",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC12enfocaRostroSSvg",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1370,8 +1594,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC12enfocaRostroSSvs",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC12enfocaRostroSSvs",
+                "usr": "s:11FaceMatchFW0aB6OnlineC12enfocaRostroSSvs",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC12enfocaRostroSSvs",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1388,8 +1612,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC12enfocaRostroSSvM",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC12enfocaRostroSSvM",
+                "usr": "s:11FaceMatchFW0aB6OnlineC12enfocaRostroSSvM",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC12enfocaRostroSSvM",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1409,8 +1633,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE11ColorSniperSSvp",
-            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE11ColorSniperSSvp",
+            "usr": "s:11FaceMatchFW0aB6OnlineC23PersonalCodeColorSniperSSvp",
+            "mangledName": "$s11FaceMatchFW0aB6OnlineC23PersonalCodeColorSniperSSvp",
             "moduleName": "FaceMatchFW",
             "declAttributes": [
               "HasInitialValue",
@@ -1434,8 +1658,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE11ColorSniperSSvg",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE11ColorSniperSSvg",
+                "usr": "s:11FaceMatchFW0aB6OnlineC23PersonalCodeColorSniperSSvg",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC23PersonalCodeColorSniperSSvg",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1458,8 +1682,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE11ColorSniperSSvs",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE11ColorSniperSSvs",
+                "usr": "s:11FaceMatchFW0aB6OnlineC23PersonalCodeColorSniperSSvs",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC23PersonalCodeColorSniperSSvs",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1476,8 +1700,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE11ColorSniperSSvM",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE11ColorSniperSSvM",
+                "usr": "s:11FaceMatchFW0aB6OnlineC23PersonalCodeColorSniperSSvM",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC23PersonalCodeColorSniperSSvM",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1497,8 +1721,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE14ColorHighlightSSvp",
-            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE14ColorHighlightSSvp",
+            "usr": "s:11FaceMatchFW0aB6OnlineC26PersonalCodeColorHighlightSSvp",
+            "mangledName": "$s11FaceMatchFW0aB6OnlineC26PersonalCodeColorHighlightSSvp",
             "moduleName": "FaceMatchFW",
             "declAttributes": [
               "HasInitialValue",
@@ -1522,8 +1746,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE14ColorHighlightSSvg",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE14ColorHighlightSSvg",
+                "usr": "s:11FaceMatchFW0aB6OnlineC26PersonalCodeColorHighlightSSvg",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC26PersonalCodeColorHighlightSSvg",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1546,8 +1770,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE14ColorHighlightSSvs",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE14ColorHighlightSSvs",
+                "usr": "s:11FaceMatchFW0aB6OnlineC26PersonalCodeColorHighlightSSvs",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC26PersonalCodeColorHighlightSSvs",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1564,8 +1788,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE14ColorHighlightSSvM",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE14ColorHighlightSSvM",
+                "usr": "s:11FaceMatchFW0aB6OnlineC26PersonalCodeColorHighlightSSvM",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC26PersonalCodeColorHighlightSSvM",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1585,8 +1809,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE21IsRotateCameraEnabledSbvp",
-            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE21IsRotateCameraEnabledSbvp",
+            "usr": "s:11FaceMatchFW0aB6OnlineC33PersonalCodeIsRotateCameraEnabledSbvp",
+            "mangledName": "$s11FaceMatchFW0aB6OnlineC33PersonalCodeIsRotateCameraEnabledSbvp",
             "moduleName": "FaceMatchFW",
             "declAttributes": [
               "HasInitialValue",
@@ -1610,8 +1834,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE21IsRotateCameraEnabledSbvg",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE21IsRotateCameraEnabledSbvg",
+                "usr": "s:11FaceMatchFW0aB6OnlineC33PersonalCodeIsRotateCameraEnabledSbvg",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC33PersonalCodeIsRotateCameraEnabledSbvg",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1634,8 +1858,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE21IsRotateCameraEnabledSbvs",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE21IsRotateCameraEnabledSbvs",
+                "usr": "s:11FaceMatchFW0aB6OnlineC33PersonalCodeIsRotateCameraEnabledSbvs",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC33PersonalCodeIsRotateCameraEnabledSbvs",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1652,8 +1876,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE21IsRotateCameraEnabledSbvM",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE21IsRotateCameraEnabledSbvM",
+                "usr": "s:11FaceMatchFW0aB6OnlineC33PersonalCodeIsRotateCameraEnabledSbvM",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC33PersonalCodeIsRotateCameraEnabledSbvM",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1673,8 +1897,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC16usingFrontCameraSbvp",
-            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC16usingFrontCameraSbvp",
+            "usr": "s:11FaceMatchFW0aB6OnlineC16usingFrontCameraSbvp",
+            "mangledName": "$s11FaceMatchFW0aB6OnlineC16usingFrontCameraSbvp",
             "moduleName": "FaceMatchFW",
             "declAttributes": [
               "HasInitialValue",
@@ -1698,8 +1922,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC16usingFrontCameraSbvg",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC16usingFrontCameraSbvg",
+                "usr": "s:11FaceMatchFW0aB6OnlineC16usingFrontCameraSbvg",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC16usingFrontCameraSbvg",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1722,8 +1946,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC16usingFrontCameraSbvs",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC16usingFrontCameraSbvs",
+                "usr": "s:11FaceMatchFW0aB6OnlineC16usingFrontCameraSbvs",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC16usingFrontCameraSbvs",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1740,8 +1964,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC16usingFrontCameraSbvM",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC16usingFrontCameraSbvM",
+                "usr": "s:11FaceMatchFW0aB6OnlineC16usingFrontCameraSbvM",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC16usingFrontCameraSbvM",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1761,8 +1985,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE14ColorFontLigthSSvp",
-            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE14ColorFontLigthSSvp",
+            "usr": "s:11FaceMatchFW0aB6OnlineC26PersonalCodeColorFontLigthSSvp",
+            "mangledName": "$s11FaceMatchFW0aB6OnlineC26PersonalCodeColorFontLigthSSvp",
             "moduleName": "FaceMatchFW",
             "declAttributes": [
               "HasInitialValue",
@@ -1786,8 +2010,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE14ColorFontLigthSSvg",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE14ColorFontLigthSSvg",
+                "usr": "s:11FaceMatchFW0aB6OnlineC26PersonalCodeColorFontLigthSSvg",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC26PersonalCodeColorFontLigthSSvg",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1810,8 +2034,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE14ColorFontLigthSSvs",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE14ColorFontLigthSSvs",
+                "usr": "s:11FaceMatchFW0aB6OnlineC26PersonalCodeColorFontLigthSSvs",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC26PersonalCodeColorFontLigthSSvs",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1828,8 +2052,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE14ColorFontLigthSSvM",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE14ColorFontLigthSSvM",
+                "usr": "s:11FaceMatchFW0aB6OnlineC26PersonalCodeColorFontLigthSSvM",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC26PersonalCodeColorFontLigthSSvM",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1849,8 +2073,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE13ColorFontDarkSSvp",
-            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE13ColorFontDarkSSvp",
+            "usr": "s:11FaceMatchFW0aB6OnlineC25PersonalCodeColorFontDarkSSvp",
+            "mangledName": "$s11FaceMatchFW0aB6OnlineC25PersonalCodeColorFontDarkSSvp",
             "moduleName": "FaceMatchFW",
             "declAttributes": [
               "HasInitialValue",
@@ -1874,8 +2098,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE13ColorFontDarkSSvg",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE13ColorFontDarkSSvg",
+                "usr": "s:11FaceMatchFW0aB6OnlineC25PersonalCodeColorFontDarkSSvg",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC25PersonalCodeColorFontDarkSSvg",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1898,8 +2122,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE13ColorFontDarkSSvs",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE13ColorFontDarkSSvs",
+                "usr": "s:11FaceMatchFW0aB6OnlineC25PersonalCodeColorFontDarkSSvs",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC25PersonalCodeColorFontDarkSSvs",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1916,8 +2140,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE13ColorFontDarkSSvM",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE13ColorFontDarkSSvM",
+                "usr": "s:11FaceMatchFW0aB6OnlineC25PersonalCodeColorFontDarkSSvM",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC25PersonalCodeColorFontDarkSSvM",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1937,8 +2161,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE12SettingsFontSSvp",
-            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE12SettingsFontSSvp",
+            "usr": "s:11FaceMatchFW0aB6OnlineC24PersonalCodeSettingsFontSSvp",
+            "mangledName": "$s11FaceMatchFW0aB6OnlineC24PersonalCodeSettingsFontSSvp",
             "moduleName": "FaceMatchFW",
             "declAttributes": [
               "HasInitialValue",
@@ -1962,8 +2186,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE12SettingsFontSSvg",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE12SettingsFontSSvg",
+                "usr": "s:11FaceMatchFW0aB6OnlineC24PersonalCodeSettingsFontSSvg",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC24PersonalCodeSettingsFontSSvg",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1986,8 +2210,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE12SettingsFontSSvs",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE12SettingsFontSSvs",
+                "usr": "s:11FaceMatchFW0aB6OnlineC24PersonalCodeSettingsFontSSvs",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC24PersonalCodeSettingsFontSSvs",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -2004,8 +2228,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE12SettingsFontSSvM",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE12SettingsFontSSvM",
+                "usr": "s:11FaceMatchFW0aB6OnlineC24PersonalCodeSettingsFontSSvM",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC24PersonalCodeSettingsFontSSvM",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -2025,8 +2249,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE10ColorUpBarSSvp",
-            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE10ColorUpBarSSvp",
+            "usr": "s:11FaceMatchFW0aB6OnlineC22PersonalCodeColorUpBarSSvp",
+            "mangledName": "$s11FaceMatchFW0aB6OnlineC22PersonalCodeColorUpBarSSvp",
             "moduleName": "FaceMatchFW",
             "declAttributes": [
               "HasInitialValue",
@@ -2050,8 +2274,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE10ColorUpBarSSvg",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE10ColorUpBarSSvg",
+                "usr": "s:11FaceMatchFW0aB6OnlineC22PersonalCodeColorUpBarSSvg",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC22PersonalCodeColorUpBarSSvg",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -2074,8 +2298,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE10ColorUpBarSSvs",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE10ColorUpBarSSvs",
+                "usr": "s:11FaceMatchFW0aB6OnlineC22PersonalCodeColorUpBarSSvs",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC22PersonalCodeColorUpBarSSvs",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -2092,8 +2316,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11FaceMatchFW18PersonalCodeSelfieC0dE10ColorUpBarSSvM",
-                "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC0dE10ColorUpBarSSvM",
+                "usr": "s:11FaceMatchFW0aB6OnlineC22PersonalCodeColorUpBarSSvM",
+                "mangledName": "$s11FaceMatchFW0aB6OnlineC22PersonalCodeColorUpBarSSvM",
                 "moduleName": "FaceMatchFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -2112,8 +2336,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC07captureA0yyF",
-            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC07captureA0yyF",
+            "usr": "s:11FaceMatchFW0aB6OnlineC07captureA0yyF",
+            "mangledName": "$s11FaceMatchFW0aB6OnlineC07captureA0yyF",
             "moduleName": "FaceMatchFW",
             "declAttributes": [
               "Preconcurrency",
@@ -2140,8 +2364,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC07capturea3AndB05imageySo7UIImageC_tF",
-            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC07capturea3AndB05imageySo7UIImageC_tF",
+            "usr": "s:11FaceMatchFW0aB6OnlineC07capturea3AndB05imageySo7UIImageC_tF",
+            "mangledName": "$s11FaceMatchFW0aB6OnlineC07capturea3AndB05imageySo7UIImageC_tF",
             "moduleName": "FaceMatchFW",
             "declAttributes": [
               "Preconcurrency",
@@ -2195,8 +2419,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC6unload10completion8animatedyyycSg_SbtF",
-            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC6unload10completion8animatedyyycSg_SbtF",
+            "usr": "s:11FaceMatchFW0aB6OnlineC6unload10completion8animatedyyycSg_SbtF",
+            "mangledName": "$s11FaceMatchFW0aB6OnlineC6unload10completion8animatedyyycSg_SbtF",
             "moduleName": "FaceMatchFW",
             "declAttributes": [
               "Preconcurrency",
@@ -2235,8 +2459,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@FaceMatchFW@objc(cs)PersonalCodeSelfie(im)captureOutput:didOutputSampleBuffer:fromConnection:",
-            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC13captureOutput_03didH04fromySo09AVCaptureH0C_So17CMSampleBufferRefaSo0K10ConnectionCtF",
+            "usr": "c:@M@FaceMatchFW@objc(cs)FaceMatchOnline(im)captureOutput:didOutputSampleBuffer:fromConnection:",
+            "mangledName": "$s11FaceMatchFW0aB6OnlineC13captureOutput_03didF04fromySo09AVCaptureF0C_So17CMSampleBufferRefaSo0I10ConnectionCtF",
             "moduleName": "FaceMatchFW",
             "objc_name": "captureOutput:didOutputSampleBuffer:fromConnection:",
             "declAttributes": [
@@ -2277,8 +2501,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC12setmaskColor07maskHexH005arrowjH004textjH0ySS_S2StF",
-            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC12setmaskColor07maskHexH005arrowjH004textjH0ySS_S2StF",
+            "usr": "s:11FaceMatchFW0aB6OnlineC12setmaskColor07maskHexF005arrowhF004texthF0ySS_S2StF",
+            "mangledName": "$s11FaceMatchFW0aB6OnlineC12setmaskColor07maskHexF005arrowhF004texthF0ySS_S2StF",
             "moduleName": "FaceMatchFW",
             "declAttributes": [
               "Preconcurrency",
@@ -2299,8 +2523,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@FaceMatchFW@objc(cs)PersonalCodeSelfie(im)didReceiveMemoryWarning",
-            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC23didReceiveMemoryWarningyyF",
+            "usr": "c:@M@FaceMatchFW@objc(cs)FaceMatchOnline(im)didReceiveMemoryWarning",
+            "mangledName": "$s11FaceMatchFW0aB6OnlineC23didReceiveMemoryWarningyyF",
             "moduleName": "FaceMatchFW",
             "overriding": true,
             "objc_name": "didReceiveMemoryWarning",
@@ -2313,50 +2537,17 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "matchFaces",
-            "printedName": "matchFaces(image1:image2:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIImage",
-                "printedName": "UIKit.UIImage",
-                "usr": "c:objc(cs)UIImage"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIImage",
-                "printedName": "UIKit.UIImage",
-                "usr": "c:objc(cs)UIImage"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11FaceMatchFW18PersonalCodeSelfieC10matchFaces6image16image2ySo7UIImageC_AHtF",
-            "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC10matchFaces6image16image2ySo7UIImageC_AHtF",
-            "moduleName": "FaceMatchFW",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@FaceMatchFW@objc(cs)PersonalCodeSelfie",
-        "mangledName": "$s11FaceMatchFW18PersonalCodeSelfieC",
+        "usr": "c:@M@FaceMatchFW@objc(cs)FaceMatchOnline",
+        "mangledName": "$s11FaceMatchFW0aB6OnlineC",
         "moduleName": "FaceMatchFW",
         "declAttributes": [
           "Preconcurrency",
           "Custom",
           "AccessControl",
+          "RawDocComment",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)UIViewController",
@@ -2439,176 +2630,271 @@
             "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceMatchFW",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FaceMatchFW"
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "FaceMatchFW"
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "FaceMatchFW"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TokenGenerator",
+        "printedName": "TokenGenerator",
+        "declKind": "Class",
+        "usr": "s:11FaceMatchFW14TokenGeneratorC",
+        "mangledName": "$s11FaceMatchFW14TokenGeneratorC",
+        "moduleName": "FaceMatchFW",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/ConectionManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 1255,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/ConectionManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 1314,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
       "kind": "StringLiteral",
-      "offset": 1026,
+      "offset": 1075,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
       "kind": "StringLiteral",
-      "offset": 1072,
+      "offset": 1125,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
       "kind": "StringLiteral",
-      "offset": 1208,
+      "offset": 1175,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
+      "kind": "StringLiteral",
+      "offset": 1225,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
+      "kind": "StringLiteral",
+      "offset": 1361,
       "length": 7,
       "value": "\"xmark\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
       "kind": "StringLiteral",
-      "offset": 1368,
+      "offset": 1521,
       "length": 9,
       "value": "\"Verdana\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
       "kind": "StringLiteral",
-      "offset": 1408,
+      "offset": 1561,
       "length": 18,
       "value": "\"Enfoca el Rostro\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
       "kind": "StringLiteral",
-      "offset": 1475,
+      "offset": 1628,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
       "kind": "StringLiteral",
-      "offset": 1536,
+      "offset": 1689,
       "length": 9,
       "value": "\"#74D288\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 1603,
+      "offset": 1756,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 1642,
+      "offset": 1795,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
       "kind": "StringLiteral",
-      "offset": 1699,
+      "offset": 1852,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
       "kind": "StringLiteral",
-      "offset": 1759,
+      "offset": 1912,
       "length": 9,
       "value": "\"#000000\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
       "kind": "StringLiteral",
-      "offset": 1820,
+      "offset": 1973,
       "length": 7,
       "value": "\"Arial\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
       "kind": "StringLiteral",
-      "offset": 1875,
+      "offset": 2028,
       "length": 9,
       "value": "\"#000000\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 3069,
+      "offset": 3222,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 5598,
+      "offset": 5751,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 8146,
+      "offset": 8299,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 8185,
+      "offset": 8338,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 20736,
+      "offset": 20890,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 20908,
+      "offset": 21062,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 20939,
+      "offset": 21093,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 20967,
+      "offset": 21121,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
+      "kind": "FloatLiteral",
+      "offset": 31387,
+      "length": 4,
+      "value": "0.85"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 29964,
+      "offset": 32439,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
       "kind": "IntegerLiteral",
-      "offset": 29993,
+      "offset": 32468,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceMatchFW\/FaceMatchFW\/PersonalCodeSelfieFW.swift",
       "kind": "FloatLiteral",
-      "offset": 35045,
+      "offset": 37520,
       "length": 3,
       "value": "1.0"
     }
