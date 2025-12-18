@@ -2,21 +2,21 @@
 import PackageDescription
 
 let package = Package(
-    name: "FaceMatchFW",
+    name: "FaceScannerFW",
     platforms: [
         .iOS(.v16) // o la versión mínima que soporte tu xcframework
     ],
     
     products: [
         .library(
-            name: "FaceMatchFW",
-            targets: ["FaceMatchFW"]
+            name: "FaceScannerFW",
+            targets: ["FaceScannerFW"]
         ),
     ],
     targets: [
         .binaryTarget(
-            name: "FaceMatchFW",
-            path: "./FaceMatchFW.xcframework"
+            name: "FaceScannerFW",
+            path: "./FaceScannerFW.xcframework"
         )
     ]
 )

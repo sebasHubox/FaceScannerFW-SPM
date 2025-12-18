@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
-// swift-module-flags: -target x86_64-apple-ios16.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FaceMatchFW
+// swift-module-flags: -target arm64-apple-ios16.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FaceScannerFW
 // swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
 import AVFoundation
 import Accelerate
@@ -17,25 +17,11 @@ import Vision
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public struct CustomDataSend : Swift.Codable {
-  public init()
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-public struct deviceData : Swift.Codable {
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-public protocol PersonalCodeSelfieSDKDelegate {
+public protocol FaceScannerListener {
   func onSuccess(image: UIKit.UIImage)
 }
-public protocol CompareFaceAndMatchDelegate {
-  func onSuccess(match: Swift.Bool, similarity: Swift.Double)
-  func onError(status: Swift.Int, description: Swift.String)
-}
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class FaceMatchOnline : UIKit.UIViewController, AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate {
-  @_Concurrency.MainActor @preconcurrency public var PersonalCodeSelfieDelegate: (any FaceMatchFW.PersonalCodeSelfieSDKDelegate)?
-  @_Concurrency.MainActor @preconcurrency public var compareFaceAndMatchDelegate: (any FaceMatchFW.CompareFaceAndMatchDelegate)?
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class FaceScanner : UIKit.UIViewController, AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate {
+  @_Concurrency.MainActor @preconcurrency public var faceScannerListener: (any FaceScannerFW.FaceScannerListener)?
   @_Concurrency.MainActor @preconcurrency public var PersonalCodeServiceURL: Swift.String
   @_Concurrency.MainActor @preconcurrency public var PersonalCodeAccessKey: Swift.String
   @_Concurrency.MainActor @preconcurrency public var PersonalCodeSecretKey: Swift.String
@@ -55,15 +41,11 @@ public protocol CompareFaceAndMatchDelegate {
   @_Concurrency.MainActor @preconcurrency public var PersonalCodeSettingsFont: Swift.String
   @_Concurrency.MainActor @preconcurrency public var PersonalCodeColorUpBar: Swift.String
   @_Concurrency.MainActor @preconcurrency public func captureFace()
-  @_Concurrency.MainActor @preconcurrency public func captureFaceAndMatch(image: UIKit.UIImage)
   #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func unload(completion: (() -> Swift.Void)? = nil, animated: Swift.Bool = true)
   #endif
   @_Concurrency.MainActor @preconcurrency @objc public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
   @_Concurrency.MainActor @preconcurrency public func setmaskColor(maskHexColor: Swift.String, arrowHexColor: Swift.String, textHexColor: Swift.String)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func didReceiveMemoryWarning()
-  @objc deinit
-}
-@_hasMissingDesignatedInitializers public class TokenGenerator {
   @objc deinit
 }

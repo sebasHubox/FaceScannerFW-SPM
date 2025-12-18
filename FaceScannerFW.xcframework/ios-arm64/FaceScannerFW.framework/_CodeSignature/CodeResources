@@ -6,64 +6,64 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		cZSObkL0q1HqCLGH+LITSgzCPkc=
+		oPMv2W65kjni3uBfwCMqpuq4jpQ=
 		</data>
-		<key>Modules/FaceMatchFW.swiftmodule/arm64-apple-ios.abi.json</key>
+		<key>Modules/FaceScannerFW.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		j3EkJplqgmgk1+ex6Br611S20Nc=
+		VVDY2Aedkr52TgZToGLAXXs3IlQ=
 		</data>
-		<key>Modules/FaceMatchFW.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<key>Modules/FaceScannerFW.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		ZKSLGGUbiznvR32b4swPH+dPfuI=
+		LqjqA6blwiuU9j5Hl5Shkaa8Gxg=
 		</data>
-		<key>Modules/FaceMatchFW.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/FaceScannerFW.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		mdfdmxw5Wm4En2gJ5BDMNyy0F7M=
+		Mr1RTn2H7kJA9RoXPA1WrNz5q8k=
 		</data>
-		<key>Modules/FaceMatchFW.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<key>Modules/FaceScannerFW.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		ZKSLGGUbiznvR32b4swPH+dPfuI=
+		LqjqA6blwiuU9j5Hl5Shkaa8Gxg=
 		</data>
-		<key>Modules/FaceMatchFW.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/FaceScannerFW.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		26pUi7qiM2NbMm0Fhtcqg+Y0zRk=
+		eZR+KLQ4hYjk3RnipKG6MJdx/hU=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Modules/FaceMatchFW.swiftmodule/arm64-apple-ios.abi.json</key>
+		<key>Modules/FaceScannerFW.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5+tAiX436xp45ELqBXPi2LvoZAlh3eAMcbqjLT1MPng=
+			GAuITfnw00WA4a3aLn0WcIlO3kVGyeDMrinfCy9a9M8=
 			</data>
 		</dict>
-		<key>Modules/FaceMatchFW.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<key>Modules/FaceScannerFW.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1l4TYmKo6t4+pLoJphgKrXG46UV3bTRcTCW/fsOr1yk=
+			0M5t8Y4LLN+bUbg4eXvNoTJxXyw1TJ+ZqKq8emAn5F4=
 			</data>
 		</dict>
-		<key>Modules/FaceMatchFW.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/FaceScannerFW.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jcHjH6AHL/EuifXwizvnwbjXv3qJIfljPHbz08zBMeY=
+			taEkPHJdATXaycp8/DomyqWMFSshUGOei8c2pu8l1TU=
 			</data>
 		</dict>
-		<key>Modules/FaceMatchFW.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<key>Modules/FaceScannerFW.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1l4TYmKo6t4+pLoJphgKrXG46UV3bTRcTCW/fsOr1yk=
+			0M5t8Y4LLN+bUbg4eXvNoTJxXyw1TJ+ZqKq8emAn5F4=
 			</data>
 		</dict>
-		<key>Modules/FaceMatchFW.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/FaceScannerFW.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H8RoO6wyEz3VVKKmcIRQfDNfT9yRtxu6BrrLVfcypdg=
+			6f/ybkExCIizoHH5dZWbvvUk1alIMh45MLIl8zktEhk=
 			</data>
 		</dict>
 	</dict>
