@@ -6,119 +6,119 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		Q0V2GZgNduKID1MOP5/xJ1XqPgc=
+		jij+8sIlqqa8UZ1PBCN3HiHhCqs=
 		</data>
-		<key>Modules/FaceMatchFW.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<key>Modules/FaceScannerFW.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		j3EkJplqgmgk1+ex6Br611S20Nc=
+		VVDY2Aedkr52TgZToGLAXXs3IlQ=
 		</data>
-		<key>Modules/FaceMatchFW.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<key>Modules/FaceScannerFW.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		U3oyjfSZVinPygJ4oR22IoCPs7c=
+		RXva8DQO62Bnzra1Zi9hoP04yjQ=
 		</data>
-		<key>Modules/FaceMatchFW.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/FaceScannerFW.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		q7fN/pU7SSim4guFl1nQ8VdRBTM=
+		+qZuwn97pmhw/XUHt2BoRdblHB0=
 		</data>
-		<key>Modules/FaceMatchFW.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<key>Modules/FaceScannerFW.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		U3oyjfSZVinPygJ4oR22IoCPs7c=
+		RXva8DQO62Bnzra1Zi9hoP04yjQ=
 		</data>
-		<key>Modules/FaceMatchFW.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/FaceScannerFW.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		6CLrtrNYpJU8rFJ67j30ov1lfCc=
+		PlgPlWsZlpBRRs9FQGCR9cgW0UM=
 		</data>
-		<key>Modules/FaceMatchFW.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<key>Modules/FaceScannerFW.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		j3EkJplqgmgk1+ex6Br611S20Nc=
+		VVDY2Aedkr52TgZToGLAXXs3IlQ=
 		</data>
-		<key>Modules/FaceMatchFW.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<key>Modules/FaceScannerFW.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		69Gbdxrq9S8WkfDHyT3S4utFHws=
+		f1V3VSvlqWh2/aNCTTRLcmd0Lcw=
 		</data>
-		<key>Modules/FaceMatchFW.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/FaceScannerFW.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		iRZTNDpYj1cEyhkdX0h+MLmay8I=
+		+oAnOd/xf/H1DGSQPTsw7U4TTWI=
 		</data>
-		<key>Modules/FaceMatchFW.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<key>Modules/FaceScannerFW.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		69Gbdxrq9S8WkfDHyT3S4utFHws=
+		f1V3VSvlqWh2/aNCTTRLcmd0Lcw=
 		</data>
-		<key>Modules/FaceMatchFW.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/FaceScannerFW.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		7Ki5ft86WDnd56RTr5RN+CLak2w=
+		RybqtK1BJ+axihXI1Bvlf76DnK8=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Modules/FaceMatchFW.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<key>Modules/FaceScannerFW.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5+tAiX436xp45ELqBXPi2LvoZAlh3eAMcbqjLT1MPng=
+			GAuITfnw00WA4a3aLn0WcIlO3kVGyeDMrinfCy9a9M8=
 			</data>
 		</dict>
-		<key>Modules/FaceMatchFW.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<key>Modules/FaceScannerFW.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DMV3djo2eNS0T+urm3cVCHpcL0/zbSHmEiY6XNmkuaw=
+			3wMXH/HTCnTaU1d7eIsieDKzcqEmL38yY0BzJuA/ioM=
 			</data>
 		</dict>
-		<key>Modules/FaceMatchFW.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/FaceScannerFW.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			e8H5zMKaqJ/43fwippZ0Zw6c2JDXPuUqicf/M6/NmMY=
+			G4IAP7A3D3+O74RppNG8JnyRys+tVePOj23F5gO4qc0=
 			</data>
 		</dict>
-		<key>Modules/FaceMatchFW.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<key>Modules/FaceScannerFW.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DMV3djo2eNS0T+urm3cVCHpcL0/zbSHmEiY6XNmkuaw=
+			3wMXH/HTCnTaU1d7eIsieDKzcqEmL38yY0BzJuA/ioM=
 			</data>
 		</dict>
-		<key>Modules/FaceMatchFW.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/FaceScannerFW.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lWM1Mx51jLrVxuAe6phykGzsmdObArnxhkFPp4AqbQM=
+			U9JoGEe1jdbm8M0YQjbswgERGPuac2TQJz0hZF5Me3I=
 			</data>
 		</dict>
-		<key>Modules/FaceMatchFW.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<key>Modules/FaceScannerFW.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5+tAiX436xp45ELqBXPi2LvoZAlh3eAMcbqjLT1MPng=
+			GAuITfnw00WA4a3aLn0WcIlO3kVGyeDMrinfCy9a9M8=
 			</data>
 		</dict>
-		<key>Modules/FaceMatchFW.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<key>Modules/FaceScannerFW.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kAtS1yYpcKrI9QN8VwbbkN2cKONtZm5fP5Mfq2p7wqE=
+			gmu15v3DGKcU7i/SNfa85piQm8BKJC3H8bIIy/A6OqM=
 			</data>
 		</dict>
-		<key>Modules/FaceMatchFW.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/FaceScannerFW.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PntzlCAlHfVJUWmXXWiWHXcV9/1jUZr6IFgyFTyk3Ic=
+			H8Ki6S48Jnh2FUVknP1CjQXgS1Jijrv1MGOSNhDnrM4=
 			</data>
 		</dict>
-		<key>Modules/FaceMatchFW.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<key>Modules/FaceScannerFW.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kAtS1yYpcKrI9QN8VwbbkN2cKONtZm5fP5Mfq2p7wqE=
+			gmu15v3DGKcU7i/SNfa85piQm8BKJC3H8bIIy/A6OqM=
 			</data>
 		</dict>
-		<key>Modules/FaceMatchFW.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/FaceScannerFW.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pvw3sW+bL8/qDzpmyib4KdL5RGfUipzLIHKkadbQX4s=
+			2ky9A4y4GJp+ztIPkQqc6hVMYz06ekWEbKUtVb+Bqrs=
 			</data>
 		</dict>
 	</dict>
