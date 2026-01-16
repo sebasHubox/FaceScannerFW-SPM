@@ -6,27 +6,27 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		oPMv2W65kjni3uBfwCMqpuq4jpQ=
+		J7HZqCeRdjMuwZR7JjfJHvHvoGo=
 		</data>
 		<key>Modules/FaceScannerFW.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		VVDY2Aedkr52TgZToGLAXXs3IlQ=
+		+l7Bc6pV11ltkrVcfVsOuesXt2A=
 		</data>
 		<key>Modules/FaceScannerFW.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		LqjqA6blwiuU9j5Hl5Shkaa8Gxg=
+		HwaLablxziLQy9ipSJqt770SUsQ=
 		</data>
 		<key>Modules/FaceScannerFW.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		Mr1RTn2H7kJA9RoXPA1WrNz5q8k=
+		K6GUxiGAAGWQrjLFdEJkE/XfCoM=
 		</data>
 		<key>Modules/FaceScannerFW.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		LqjqA6blwiuU9j5Hl5Shkaa8Gxg=
+		HwaLablxziLQy9ipSJqt770SUsQ=
 		</data>
 		<key>Modules/FaceScannerFW.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		eZR+KLQ4hYjk3RnipKG6MJdx/hU=
+		g8HHxR6PjF4NzT8dMbhSzjLbXQU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -35,35 +35,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GAuITfnw00WA4a3aLn0WcIlO3kVGyeDMrinfCy9a9M8=
+			tnbiLv5JtDa5hmp8KUeT+GVvKF3PNYVBT8Tfxdr88lU=
 			</data>
 		</dict>
 		<key>Modules/FaceScannerFW.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0M5t8Y4LLN+bUbg4eXvNoTJxXyw1TJ+ZqKq8emAn5F4=
+			cYug/qNg9sVEUTfBYH/xRYbMHIV5mCm4XGxO+C8JL2k=
 			</data>
 		</dict>
 		<key>Modules/FaceScannerFW.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			taEkPHJdATXaycp8/DomyqWMFSshUGOei8c2pu8l1TU=
+			A03hpFjhO6xEtkcN9m4VITPyByaWst6u2PBEb5u5Awo=
 			</data>
 		</dict>
 		<key>Modules/FaceScannerFW.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0M5t8Y4LLN+bUbg4eXvNoTJxXyw1TJ+ZqKq8emAn5F4=
+			cYug/qNg9sVEUTfBYH/xRYbMHIV5mCm4XGxO+C8JL2k=
 			</data>
 		</dict>
 		<key>Modules/FaceScannerFW.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6f/ybkExCIizoHH5dZWbvvUk1alIMh45MLIl8zktEhk=
+			WhC2ZGccUHY+2Xu7JyoOvRBXFzMYtfNnf80/Qw/tSmA=
 			</data>
 		</dict>
 	</dict>

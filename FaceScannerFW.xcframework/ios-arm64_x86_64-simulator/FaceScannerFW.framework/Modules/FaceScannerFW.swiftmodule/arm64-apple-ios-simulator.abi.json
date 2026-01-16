@@ -280,360 +280,8 @@
           },
           {
             "kind": "Var",
-            "name": "PersonalCodeServiceURL",
-            "printedName": "PersonalCodeServiceURL",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13FaceScannerFW0aB0C22PersonalCodeServiceURLSSvp",
-            "mangledName": "$s13FaceScannerFW0aB0C22PersonalCodeServiceURLSSvp",
-            "moduleName": "FaceScannerFW",
-            "declAttributes": [
-              "HasInitialValue",
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C22PersonalCodeServiceURLSSvg",
-                "mangledName": "$s13FaceScannerFW0aB0C22PersonalCodeServiceURLSSvg",
-                "moduleName": "FaceScannerFW",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C22PersonalCodeServiceURLSSvs",
-                "mangledName": "$s13FaceScannerFW0aB0C22PersonalCodeServiceURLSSvs",
-                "moduleName": "FaceScannerFW",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C22PersonalCodeServiceURLSSvM",
-                "mangledName": "$s13FaceScannerFW0aB0C22PersonalCodeServiceURLSSvM",
-                "moduleName": "FaceScannerFW",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "PersonalCodeAccessKey",
-            "printedName": "PersonalCodeAccessKey",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13FaceScannerFW0aB0C21PersonalCodeAccessKeySSvp",
-            "mangledName": "$s13FaceScannerFW0aB0C21PersonalCodeAccessKeySSvp",
-            "moduleName": "FaceScannerFW",
-            "declAttributes": [
-              "HasInitialValue",
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C21PersonalCodeAccessKeySSvg",
-                "mangledName": "$s13FaceScannerFW0aB0C21PersonalCodeAccessKeySSvg",
-                "moduleName": "FaceScannerFW",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C21PersonalCodeAccessKeySSvs",
-                "mangledName": "$s13FaceScannerFW0aB0C21PersonalCodeAccessKeySSvs",
-                "moduleName": "FaceScannerFW",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C21PersonalCodeAccessKeySSvM",
-                "mangledName": "$s13FaceScannerFW0aB0C21PersonalCodeAccessKeySSvM",
-                "moduleName": "FaceScannerFW",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "PersonalCodeSecretKey",
-            "printedName": "PersonalCodeSecretKey",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13FaceScannerFW0aB0C21PersonalCodeSecretKeySSvp",
-            "mangledName": "$s13FaceScannerFW0aB0C21PersonalCodeSecretKeySSvp",
-            "moduleName": "FaceScannerFW",
-            "declAttributes": [
-              "HasInitialValue",
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C21PersonalCodeSecretKeySSvg",
-                "mangledName": "$s13FaceScannerFW0aB0C21PersonalCodeSecretKeySSvg",
-                "moduleName": "FaceScannerFW",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C21PersonalCodeSecretKeySSvs",
-                "mangledName": "$s13FaceScannerFW0aB0C21PersonalCodeSecretKeySSvs",
-                "moduleName": "FaceScannerFW",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C21PersonalCodeSecretKeySSvM",
-                "mangledName": "$s13FaceScannerFW0aB0C21PersonalCodeSecretKeySSvM",
-                "moduleName": "FaceScannerFW",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "PersonalCodePublicKey",
-            "printedName": "PersonalCodePublicKey",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13FaceScannerFW0aB0C21PersonalCodePublicKeySSvp",
-            "mangledName": "$s13FaceScannerFW0aB0C21PersonalCodePublicKeySSvp",
-            "moduleName": "FaceScannerFW",
-            "declAttributes": [
-              "HasInitialValue",
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C21PersonalCodePublicKeySSvg",
-                "mangledName": "$s13FaceScannerFW0aB0C21PersonalCodePublicKeySSvg",
-                "moduleName": "FaceScannerFW",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C21PersonalCodePublicKeySSvs",
-                "mangledName": "$s13FaceScannerFW0aB0C21PersonalCodePublicKeySSvs",
-                "moduleName": "FaceScannerFW",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C21PersonalCodePublicKeySSvM",
-                "mangledName": "$s13FaceScannerFW0aB0C21PersonalCodePublicKeySSvM",
-                "moduleName": "FaceScannerFW",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "PersonalCodeChangeCameraImage",
-            "printedName": "PersonalCodeChangeCameraImage",
+            "name": "changeCameraImage",
+            "printedName": "changeCameraImage",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -643,8 +291,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:13FaceScannerFW0aB0C29PersonalCodeChangeCameraImageSo7UIImageCvp",
-            "mangledName": "$s13FaceScannerFW0aB0C29PersonalCodeChangeCameraImageSo7UIImageCvp",
+            "usr": "s:13FaceScannerFW0aB0C17changeCameraImageSo7UIImageCvp",
+            "mangledName": "$s13FaceScannerFW0aB0C17changeCameraImageSo7UIImageCvp",
             "moduleName": "FaceScannerFW",
             "declAttributes": [
               "HasInitialValue",
@@ -668,8 +316,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C29PersonalCodeChangeCameraImageSo7UIImageCvg",
-                "mangledName": "$s13FaceScannerFW0aB0C29PersonalCodeChangeCameraImageSo7UIImageCvg",
+                "usr": "s:13FaceScannerFW0aB0C17changeCameraImageSo7UIImageCvg",
+                "mangledName": "$s13FaceScannerFW0aB0C17changeCameraImageSo7UIImageCvg",
                 "moduleName": "FaceScannerFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -692,8 +340,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C29PersonalCodeChangeCameraImageSo7UIImageCvs",
-                "mangledName": "$s13FaceScannerFW0aB0C29PersonalCodeChangeCameraImageSo7UIImageCvs",
+                "usr": "s:13FaceScannerFW0aB0C17changeCameraImageSo7UIImageCvs",
+                "mangledName": "$s13FaceScannerFW0aB0C17changeCameraImageSo7UIImageCvs",
                 "moduleName": "FaceScannerFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -710,8 +358,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C29PersonalCodeChangeCameraImageSo7UIImageCvM",
-                "mangledName": "$s13FaceScannerFW0aB0C29PersonalCodeChangeCameraImageSo7UIImageCvM",
+                "usr": "s:13FaceScannerFW0aB0C17changeCameraImageSo7UIImageCvM",
+                "mangledName": "$s13FaceScannerFW0aB0C17changeCameraImageSo7UIImageCvM",
                 "moduleName": "FaceScannerFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -720,8 +368,8 @@
           },
           {
             "kind": "Var",
-            "name": "PersonalCodeCloseCameraImage",
-            "printedName": "PersonalCodeCloseCameraImage",
+            "name": "closeCameraImage",
+            "printedName": "closeCameraImage",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -739,8 +387,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:13FaceScannerFW0aB0C28PersonalCodeCloseCameraImageSo7UIImageCSgvp",
-            "mangledName": "$s13FaceScannerFW0aB0C28PersonalCodeCloseCameraImageSo7UIImageCSgvp",
+            "usr": "s:13FaceScannerFW0aB0C16closeCameraImageSo7UIImageCSgvp",
+            "mangledName": "$s13FaceScannerFW0aB0C16closeCameraImageSo7UIImageCSgvp",
             "moduleName": "FaceScannerFW",
             "declAttributes": [
               "HasInitialValue",
@@ -772,8 +420,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C28PersonalCodeCloseCameraImageSo7UIImageCSgvg",
-                "mangledName": "$s13FaceScannerFW0aB0C28PersonalCodeCloseCameraImageSo7UIImageCSgvg",
+                "usr": "s:13FaceScannerFW0aB0C16closeCameraImageSo7UIImageCSgvg",
+                "mangledName": "$s13FaceScannerFW0aB0C16closeCameraImageSo7UIImageCSgvg",
                 "moduleName": "FaceScannerFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -804,8 +452,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C28PersonalCodeCloseCameraImageSo7UIImageCSgvs",
-                "mangledName": "$s13FaceScannerFW0aB0C28PersonalCodeCloseCameraImageSo7UIImageCSgvs",
+                "usr": "s:13FaceScannerFW0aB0C16closeCameraImageSo7UIImageCSgvs",
+                "mangledName": "$s13FaceScannerFW0aB0C16closeCameraImageSo7UIImageCSgvs",
                 "moduleName": "FaceScannerFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -822,8 +470,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C28PersonalCodeCloseCameraImageSo7UIImageCSgvM",
-                "mangledName": "$s13FaceScannerFW0aB0C28PersonalCodeCloseCameraImageSo7UIImageCSgvM",
+                "usr": "s:13FaceScannerFW0aB0C16closeCameraImageSo7UIImageCSgvM",
+                "mangledName": "$s13FaceScannerFW0aB0C16closeCameraImageSo7UIImageCSgvM",
                 "moduleName": "FaceScannerFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -832,19 +480,27 @@
           },
           {
             "kind": "Var",
-            "name": "PersonalCodeFlashOnImage",
-            "printedName": "PersonalCodeFlashOnImage",
+            "name": "flashOnImage",
+            "printedName": "flashOnImage",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "UIImage",
-                "printedName": "UIKit.UIImage",
-                "usr": "c:objc(cs)UIImage"
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:13FaceScannerFW0aB0C24PersonalCodeFlashOnImageSo7UIImageCvp",
-            "mangledName": "$s13FaceScannerFW0aB0C24PersonalCodeFlashOnImageSo7UIImageCvp",
+            "usr": "s:13FaceScannerFW0aB0C12flashOnImageSo7UIImageCSgvp",
+            "mangledName": "$s13FaceScannerFW0aB0C12flashOnImageSo7UIImageCSgvp",
             "moduleName": "FaceScannerFW",
             "declAttributes": [
               "HasInitialValue",
@@ -862,14 +518,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C24PersonalCodeFlashOnImageSo7UIImageCvg",
-                "mangledName": "$s13FaceScannerFW0aB0C24PersonalCodeFlashOnImageSo7UIImageCvg",
+                "usr": "s:13FaceScannerFW0aB0C12flashOnImageSo7UIImageCSgvg",
+                "mangledName": "$s13FaceScannerFW0aB0C12flashOnImageSo7UIImageCSgvg",
                 "moduleName": "FaceScannerFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -886,14 +550,22 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C24PersonalCodeFlashOnImageSo7UIImageCvs",
-                "mangledName": "$s13FaceScannerFW0aB0C24PersonalCodeFlashOnImageSo7UIImageCvs",
+                "usr": "s:13FaceScannerFW0aB0C12flashOnImageSo7UIImageCSgvs",
+                "mangledName": "$s13FaceScannerFW0aB0C12flashOnImageSo7UIImageCSgvs",
                 "moduleName": "FaceScannerFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -910,8 +582,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C24PersonalCodeFlashOnImageSo7UIImageCvM",
-                "mangledName": "$s13FaceScannerFW0aB0C24PersonalCodeFlashOnImageSo7UIImageCvM",
+                "usr": "s:13FaceScannerFW0aB0C12flashOnImageSo7UIImageCSgvM",
+                "mangledName": "$s13FaceScannerFW0aB0C12flashOnImageSo7UIImageCSgvM",
                 "moduleName": "FaceScannerFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -920,19 +592,27 @@
           },
           {
             "kind": "Var",
-            "name": "PersonalCodeFlashOffImage",
-            "printedName": "PersonalCodeFlashOffImage",
+            "name": "flashOffImage",
+            "printedName": "flashOffImage",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "UIImage",
-                "printedName": "UIKit.UIImage",
-                "usr": "c:objc(cs)UIImage"
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:13FaceScannerFW0aB0C25PersonalCodeFlashOffImageSo7UIImageCvp",
-            "mangledName": "$s13FaceScannerFW0aB0C25PersonalCodeFlashOffImageSo7UIImageCvp",
+            "usr": "s:13FaceScannerFW0aB0C13flashOffImageSo7UIImageCSgvp",
+            "mangledName": "$s13FaceScannerFW0aB0C13flashOffImageSo7UIImageCSgvp",
             "moduleName": "FaceScannerFW",
             "declAttributes": [
               "HasInitialValue",
@@ -950,14 +630,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C25PersonalCodeFlashOffImageSo7UIImageCvg",
-                "mangledName": "$s13FaceScannerFW0aB0C25PersonalCodeFlashOffImageSo7UIImageCvg",
+                "usr": "s:13FaceScannerFW0aB0C13flashOffImageSo7UIImageCSgvg",
+                "mangledName": "$s13FaceScannerFW0aB0C13flashOffImageSo7UIImageCSgvg",
                 "moduleName": "FaceScannerFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -974,14 +662,22 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C25PersonalCodeFlashOffImageSo7UIImageCvs",
-                "mangledName": "$s13FaceScannerFW0aB0C25PersonalCodeFlashOffImageSo7UIImageCvs",
+                "usr": "s:13FaceScannerFW0aB0C13flashOffImageSo7UIImageCSgvs",
+                "mangledName": "$s13FaceScannerFW0aB0C13flashOffImageSo7UIImageCSgvs",
                 "moduleName": "FaceScannerFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -998,8 +694,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C25PersonalCodeFlashOffImageSo7UIImageCvM",
-                "mangledName": "$s13FaceScannerFW0aB0C25PersonalCodeFlashOffImageSo7UIImageCvM",
+                "usr": "s:13FaceScannerFW0aB0C13flashOffImageSo7UIImageCSgvM",
+                "mangledName": "$s13FaceScannerFW0aB0C13flashOffImageSo7UIImageCSgvM",
                 "moduleName": "FaceScannerFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1008,8 +704,8 @@
           },
           {
             "kind": "Var",
-            "name": "PersonalCodeFontName",
-            "printedName": "PersonalCodeFontName",
+            "name": "fontName",
+            "printedName": "fontName",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1019,8 +715,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:13FaceScannerFW0aB0C20PersonalCodeFontNameSSvp",
-            "mangledName": "$s13FaceScannerFW0aB0C20PersonalCodeFontNameSSvp",
+            "usr": "s:13FaceScannerFW0aB0C8fontNameSSvp",
+            "mangledName": "$s13FaceScannerFW0aB0C8fontNameSSvp",
             "moduleName": "FaceScannerFW",
             "declAttributes": [
               "HasInitialValue",
@@ -1044,8 +740,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C20PersonalCodeFontNameSSvg",
-                "mangledName": "$s13FaceScannerFW0aB0C20PersonalCodeFontNameSSvg",
+                "usr": "s:13FaceScannerFW0aB0C8fontNameSSvg",
+                "mangledName": "$s13FaceScannerFW0aB0C8fontNameSSvg",
                 "moduleName": "FaceScannerFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1068,8 +764,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C20PersonalCodeFontNameSSvs",
-                "mangledName": "$s13FaceScannerFW0aB0C20PersonalCodeFontNameSSvs",
+                "usr": "s:13FaceScannerFW0aB0C8fontNameSSvs",
+                "mangledName": "$s13FaceScannerFW0aB0C8fontNameSSvs",
                 "moduleName": "FaceScannerFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1086,8 +782,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C20PersonalCodeFontNameSSvM",
-                "mangledName": "$s13FaceScannerFW0aB0C20PersonalCodeFontNameSSvM",
+                "usr": "s:13FaceScannerFW0aB0C8fontNameSSvM",
+                "mangledName": "$s13FaceScannerFW0aB0C8fontNameSSvM",
                 "moduleName": "FaceScannerFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1184,8 +880,8 @@
           },
           {
             "kind": "Var",
-            "name": "PersonalCodeColorSniper",
-            "printedName": "PersonalCodeColorSniper",
+            "name": "colorSniper",
+            "printedName": "colorSniper",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1195,8 +891,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:13FaceScannerFW0aB0C23PersonalCodeColorSniperSSvp",
-            "mangledName": "$s13FaceScannerFW0aB0C23PersonalCodeColorSniperSSvp",
+            "usr": "s:13FaceScannerFW0aB0C11colorSniperSSvp",
+            "mangledName": "$s13FaceScannerFW0aB0C11colorSniperSSvp",
             "moduleName": "FaceScannerFW",
             "declAttributes": [
               "HasInitialValue",
@@ -1220,8 +916,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C23PersonalCodeColorSniperSSvg",
-                "mangledName": "$s13FaceScannerFW0aB0C23PersonalCodeColorSniperSSvg",
+                "usr": "s:13FaceScannerFW0aB0C11colorSniperSSvg",
+                "mangledName": "$s13FaceScannerFW0aB0C11colorSniperSSvg",
                 "moduleName": "FaceScannerFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1244,8 +940,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C23PersonalCodeColorSniperSSvs",
-                "mangledName": "$s13FaceScannerFW0aB0C23PersonalCodeColorSniperSSvs",
+                "usr": "s:13FaceScannerFW0aB0C11colorSniperSSvs",
+                "mangledName": "$s13FaceScannerFW0aB0C11colorSniperSSvs",
                 "moduleName": "FaceScannerFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1262,8 +958,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C23PersonalCodeColorSniperSSvM",
-                "mangledName": "$s13FaceScannerFW0aB0C23PersonalCodeColorSniperSSvM",
+                "usr": "s:13FaceScannerFW0aB0C11colorSniperSSvM",
+                "mangledName": "$s13FaceScannerFW0aB0C11colorSniperSSvM",
                 "moduleName": "FaceScannerFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1272,8 +968,8 @@
           },
           {
             "kind": "Var",
-            "name": "PersonalCodeColorHighlight",
-            "printedName": "PersonalCodeColorHighlight",
+            "name": "colorHighlight",
+            "printedName": "colorHighlight",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1283,8 +979,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:13FaceScannerFW0aB0C26PersonalCodeColorHighlightSSvp",
-            "mangledName": "$s13FaceScannerFW0aB0C26PersonalCodeColorHighlightSSvp",
+            "usr": "s:13FaceScannerFW0aB0C14colorHighlightSSvp",
+            "mangledName": "$s13FaceScannerFW0aB0C14colorHighlightSSvp",
             "moduleName": "FaceScannerFW",
             "declAttributes": [
               "HasInitialValue",
@@ -1308,8 +1004,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C26PersonalCodeColorHighlightSSvg",
-                "mangledName": "$s13FaceScannerFW0aB0C26PersonalCodeColorHighlightSSvg",
+                "usr": "s:13FaceScannerFW0aB0C14colorHighlightSSvg",
+                "mangledName": "$s13FaceScannerFW0aB0C14colorHighlightSSvg",
                 "moduleName": "FaceScannerFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1332,8 +1028,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C26PersonalCodeColorHighlightSSvs",
-                "mangledName": "$s13FaceScannerFW0aB0C26PersonalCodeColorHighlightSSvs",
+                "usr": "s:13FaceScannerFW0aB0C14colorHighlightSSvs",
+                "mangledName": "$s13FaceScannerFW0aB0C14colorHighlightSSvs",
                 "moduleName": "FaceScannerFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1350,8 +1046,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C26PersonalCodeColorHighlightSSvM",
-                "mangledName": "$s13FaceScannerFW0aB0C26PersonalCodeColorHighlightSSvM",
+                "usr": "s:13FaceScannerFW0aB0C14colorHighlightSSvM",
+                "mangledName": "$s13FaceScannerFW0aB0C14colorHighlightSSvM",
                 "moduleName": "FaceScannerFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1360,184 +1056,8 @@
           },
           {
             "kind": "Var",
-            "name": "PersonalCodeIsRotateCameraEnabled",
-            "printedName": "PersonalCodeIsRotateCameraEnabled",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13FaceScannerFW0aB0C33PersonalCodeIsRotateCameraEnabledSbvp",
-            "mangledName": "$s13FaceScannerFW0aB0C33PersonalCodeIsRotateCameraEnabledSbvp",
-            "moduleName": "FaceScannerFW",
-            "declAttributes": [
-              "HasInitialValue",
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C33PersonalCodeIsRotateCameraEnabledSbvg",
-                "mangledName": "$s13FaceScannerFW0aB0C33PersonalCodeIsRotateCameraEnabledSbvg",
-                "moduleName": "FaceScannerFW",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C33PersonalCodeIsRotateCameraEnabledSbvs",
-                "mangledName": "$s13FaceScannerFW0aB0C33PersonalCodeIsRotateCameraEnabledSbvs",
-                "moduleName": "FaceScannerFW",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C33PersonalCodeIsRotateCameraEnabledSbvM",
-                "mangledName": "$s13FaceScannerFW0aB0C33PersonalCodeIsRotateCameraEnabledSbvM",
-                "moduleName": "FaceScannerFW",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "usingFrontCamera",
-            "printedName": "usingFrontCamera",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13FaceScannerFW0aB0C16usingFrontCameraSbvp",
-            "mangledName": "$s13FaceScannerFW0aB0C16usingFrontCameraSbvp",
-            "moduleName": "FaceScannerFW",
-            "declAttributes": [
-              "HasInitialValue",
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C16usingFrontCameraSbvg",
-                "mangledName": "$s13FaceScannerFW0aB0C16usingFrontCameraSbvg",
-                "moduleName": "FaceScannerFW",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C16usingFrontCameraSbvs",
-                "mangledName": "$s13FaceScannerFW0aB0C16usingFrontCameraSbvs",
-                "moduleName": "FaceScannerFW",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C16usingFrontCameraSbvM",
-                "mangledName": "$s13FaceScannerFW0aB0C16usingFrontCameraSbvM",
-                "moduleName": "FaceScannerFW",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "PersonalCodeColorFontLigth",
-            "printedName": "PersonalCodeColorFontLigth",
+            "name": "colorFontLigth",
+            "printedName": "colorFontLigth",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1547,8 +1067,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:13FaceScannerFW0aB0C26PersonalCodeColorFontLigthSSvp",
-            "mangledName": "$s13FaceScannerFW0aB0C26PersonalCodeColorFontLigthSSvp",
+            "usr": "s:13FaceScannerFW0aB0C14colorFontLigthSSvp",
+            "mangledName": "$s13FaceScannerFW0aB0C14colorFontLigthSSvp",
             "moduleName": "FaceScannerFW",
             "declAttributes": [
               "HasInitialValue",
@@ -1572,8 +1092,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C26PersonalCodeColorFontLigthSSvg",
-                "mangledName": "$s13FaceScannerFW0aB0C26PersonalCodeColorFontLigthSSvg",
+                "usr": "s:13FaceScannerFW0aB0C14colorFontLigthSSvg",
+                "mangledName": "$s13FaceScannerFW0aB0C14colorFontLigthSSvg",
                 "moduleName": "FaceScannerFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1596,8 +1116,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C26PersonalCodeColorFontLigthSSvs",
-                "mangledName": "$s13FaceScannerFW0aB0C26PersonalCodeColorFontLigthSSvs",
+                "usr": "s:13FaceScannerFW0aB0C14colorFontLigthSSvs",
+                "mangledName": "$s13FaceScannerFW0aB0C14colorFontLigthSSvs",
                 "moduleName": "FaceScannerFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1614,8 +1134,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C26PersonalCodeColorFontLigthSSvM",
-                "mangledName": "$s13FaceScannerFW0aB0C26PersonalCodeColorFontLigthSSvM",
+                "usr": "s:13FaceScannerFW0aB0C14colorFontLigthSSvM",
+                "mangledName": "$s13FaceScannerFW0aB0C14colorFontLigthSSvM",
                 "moduleName": "FaceScannerFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1624,8 +1144,8 @@
           },
           {
             "kind": "Var",
-            "name": "PersonalCodeColorFontDark",
-            "printedName": "PersonalCodeColorFontDark",
+            "name": "colorFontDark",
+            "printedName": "colorFontDark",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1635,8 +1155,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:13FaceScannerFW0aB0C25PersonalCodeColorFontDarkSSvp",
-            "mangledName": "$s13FaceScannerFW0aB0C25PersonalCodeColorFontDarkSSvp",
+            "usr": "s:13FaceScannerFW0aB0C13colorFontDarkSSvp",
+            "mangledName": "$s13FaceScannerFW0aB0C13colorFontDarkSSvp",
             "moduleName": "FaceScannerFW",
             "declAttributes": [
               "HasInitialValue",
@@ -1660,8 +1180,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C25PersonalCodeColorFontDarkSSvg",
-                "mangledName": "$s13FaceScannerFW0aB0C25PersonalCodeColorFontDarkSSvg",
+                "usr": "s:13FaceScannerFW0aB0C13colorFontDarkSSvg",
+                "mangledName": "$s13FaceScannerFW0aB0C13colorFontDarkSSvg",
                 "moduleName": "FaceScannerFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1684,8 +1204,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C25PersonalCodeColorFontDarkSSvs",
-                "mangledName": "$s13FaceScannerFW0aB0C25PersonalCodeColorFontDarkSSvs",
+                "usr": "s:13FaceScannerFW0aB0C13colorFontDarkSSvs",
+                "mangledName": "$s13FaceScannerFW0aB0C13colorFontDarkSSvs",
                 "moduleName": "FaceScannerFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1702,8 +1222,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C25PersonalCodeColorFontDarkSSvM",
-                "mangledName": "$s13FaceScannerFW0aB0C25PersonalCodeColorFontDarkSSvM",
+                "usr": "s:13FaceScannerFW0aB0C13colorFontDarkSSvM",
+                "mangledName": "$s13FaceScannerFW0aB0C13colorFontDarkSSvM",
                 "moduleName": "FaceScannerFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1712,8 +1232,8 @@
           },
           {
             "kind": "Var",
-            "name": "PersonalCodeSettingsFont",
-            "printedName": "PersonalCodeSettingsFont",
+            "name": "settingsFont",
+            "printedName": "settingsFont",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1723,8 +1243,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:13FaceScannerFW0aB0C24PersonalCodeSettingsFontSSvp",
-            "mangledName": "$s13FaceScannerFW0aB0C24PersonalCodeSettingsFontSSvp",
+            "usr": "s:13FaceScannerFW0aB0C12settingsFontSSvp",
+            "mangledName": "$s13FaceScannerFW0aB0C12settingsFontSSvp",
             "moduleName": "FaceScannerFW",
             "declAttributes": [
               "HasInitialValue",
@@ -1748,8 +1268,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C24PersonalCodeSettingsFontSSvg",
-                "mangledName": "$s13FaceScannerFW0aB0C24PersonalCodeSettingsFontSSvg",
+                "usr": "s:13FaceScannerFW0aB0C12settingsFontSSvg",
+                "mangledName": "$s13FaceScannerFW0aB0C12settingsFontSSvg",
                 "moduleName": "FaceScannerFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1772,8 +1292,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C24PersonalCodeSettingsFontSSvs",
-                "mangledName": "$s13FaceScannerFW0aB0C24PersonalCodeSettingsFontSSvs",
+                "usr": "s:13FaceScannerFW0aB0C12settingsFontSSvs",
+                "mangledName": "$s13FaceScannerFW0aB0C12settingsFontSSvs",
                 "moduleName": "FaceScannerFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1790,8 +1310,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C24PersonalCodeSettingsFontSSvM",
-                "mangledName": "$s13FaceScannerFW0aB0C24PersonalCodeSettingsFontSSvM",
+                "usr": "s:13FaceScannerFW0aB0C12settingsFontSSvM",
+                "mangledName": "$s13FaceScannerFW0aB0C12settingsFontSSvM",
                 "moduleName": "FaceScannerFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1800,8 +1320,8 @@
           },
           {
             "kind": "Var",
-            "name": "PersonalCodeColorUpBar",
-            "printedName": "PersonalCodeColorUpBar",
+            "name": "colorUpBar",
+            "printedName": "colorUpBar",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1811,8 +1331,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:13FaceScannerFW0aB0C22PersonalCodeColorUpBarSSvp",
-            "mangledName": "$s13FaceScannerFW0aB0C22PersonalCodeColorUpBarSSvp",
+            "usr": "s:13FaceScannerFW0aB0C10colorUpBarSSvp",
+            "mangledName": "$s13FaceScannerFW0aB0C10colorUpBarSSvp",
             "moduleName": "FaceScannerFW",
             "declAttributes": [
               "HasInitialValue",
@@ -1836,8 +1356,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C22PersonalCodeColorUpBarSSvg",
-                "mangledName": "$s13FaceScannerFW0aB0C22PersonalCodeColorUpBarSSvg",
+                "usr": "s:13FaceScannerFW0aB0C10colorUpBarSSvg",
+                "mangledName": "$s13FaceScannerFW0aB0C10colorUpBarSSvg",
                 "moduleName": "FaceScannerFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1860,8 +1380,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C22PersonalCodeColorUpBarSSvs",
-                "mangledName": "$s13FaceScannerFW0aB0C22PersonalCodeColorUpBarSSvs",
+                "usr": "s:13FaceScannerFW0aB0C10colorUpBarSSvs",
+                "mangledName": "$s13FaceScannerFW0aB0C10colorUpBarSSvs",
                 "moduleName": "FaceScannerFW",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1878,8 +1398,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13FaceScannerFW0aB0C22PersonalCodeColorUpBarSSvM",
-                "mangledName": "$s13FaceScannerFW0aB0C22PersonalCodeColorUpBarSSvM",
+                "usr": "s:13FaceScannerFW0aB0C10colorUpBarSSvM",
+                "mangledName": "$s13FaceScannerFW0aB0C10colorUpBarSSvM",
                 "moduleName": "FaceScannerFW",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -2047,6 +1567,33 @@
           },
           {
             "kind": "Function",
+            "name": "viewDidLayoutSubviews",
+            "printedName": "viewDidLayoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FaceScannerFW@objc(cs)FaceScanner(im)viewDidLayoutSubviews",
+            "mangledName": "$s13FaceScannerFW0aB0C21viewDidLayoutSubviewsyyF",
+            "moduleName": "FaceScannerFW",
+            "overriding": true,
+            "objc_name": "viewDidLayoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "didReceiveMemoryWarning",
             "printedName": "didReceiveMemoryWarning()",
             "children": [
@@ -2171,182 +1718,168 @@
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceScannerFW\/FaceScannerFW\/FaceScanner.swift",
       "kind": "StringLiteral",
-      "offset": 548,
-      "length": 2,
-      "value": "\"\""
+      "offset": 604,
+      "length": 19,
+      "value": "\"xmark.circle.fill\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceScannerFW\/FaceScannerFW\/FaceScanner.swift",
       "kind": "StringLiteral",
-      "offset": 598,
-      "length": 2,
-      "value": "\"\""
+      "offset": 675,
+      "length": 11,
+      "value": "\"bolt.fill\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceScannerFW\/FaceScannerFW\/FaceScanner.swift",
       "kind": "StringLiteral",
-      "offset": 648,
-      "length": 2,
-      "value": "\"\""
+      "offset": 739,
+      "length": 17,
+      "value": "\"bolt.slash.fill\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceScannerFW\/FaceScannerFW\/FaceScanner.swift",
+      "kind": "BooleanLiteral",
+      "offset": 809,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceScannerFW\/FaceScannerFW\/FaceScanner.swift",
+      "kind": "BooleanLiteral",
+      "offset": 849,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceScannerFW\/FaceScannerFW\/FaceScanner.swift",
       "kind": "StringLiteral",
-      "offset": 698,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceScannerFW\/FaceScannerFW\/FaceScanner.swift",
-      "kind": "StringLiteral",
-      "offset": 834,
-      "length": 7,
-      "value": "\"xmark\""
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceScannerFW\/FaceScannerFW\/FaceScanner.swift",
-      "kind": "StringLiteral",
-      "offset": 994,
+      "offset": 889,
       "length": 9,
       "value": "\"Verdana\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceScannerFW\/FaceScannerFW\/FaceScanner.swift",
       "kind": "StringLiteral",
-      "offset": 1034,
+      "offset": 929,
       "length": 18,
       "value": "\"Enfoca el Rostro\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceScannerFW\/FaceScannerFW\/FaceScanner.swift",
       "kind": "StringLiteral",
-      "offset": 1101,
+      "offset": 984,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceScannerFW\/FaceScannerFW\/FaceScanner.swift",
       "kind": "StringLiteral",
-      "offset": 1162,
+      "offset": 1033,
       "length": 9,
       "value": "\"#74D288\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceScannerFW\/FaceScannerFW\/FaceScanner.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1229,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceScannerFW\/FaceScannerFW\/FaceScanner.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1268,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceScannerFW\/FaceScannerFW\/FaceScanner.swift",
       "kind": "StringLiteral",
-      "offset": 1325,
+      "offset": 1082,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceScannerFW\/FaceScannerFW\/FaceScanner.swift",
       "kind": "StringLiteral",
-      "offset": 1385,
+      "offset": 1130,
       "length": 9,
       "value": "\"#000000\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceScannerFW\/FaceScannerFW\/FaceScanner.swift",
       "kind": "StringLiteral",
-      "offset": 1446,
+      "offset": 1179,
       "length": 7,
       "value": "\"Arial\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceScannerFW\/FaceScannerFW\/FaceScanner.swift",
       "kind": "StringLiteral",
-      "offset": 1501,
+      "offset": 1222,
       "length": 9,
       "value": "\"#000000\""
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceScannerFW\/FaceScannerFW\/FaceScanner.swift",
       "kind": "BooleanLiteral",
-      "offset": 4853,
+      "offset": 5081,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceScannerFW\/FaceScannerFW\/FaceScanner.swift",
       "kind": "IntegerLiteral",
-      "offset": 7401,
+      "offset": 7629,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceScannerFW\/FaceScannerFW\/FaceScanner.swift",
       "kind": "BooleanLiteral",
-      "offset": 7440,
+      "offset": 7668,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceScannerFW\/FaceScannerFW\/FaceScanner.swift",
       "kind": "BooleanLiteral",
-      "offset": 19992,
+      "offset": 19969,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceScannerFW\/FaceScannerFW\/FaceScanner.swift",
       "kind": "IntegerLiteral",
-      "offset": 20164,
+      "offset": 20141,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceScannerFW\/FaceScannerFW\/FaceScanner.swift",
       "kind": "IntegerLiteral",
-      "offset": 20195,
+      "offset": 20172,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceScannerFW\/FaceScannerFW\/FaceScanner.swift",
       "kind": "BooleanLiteral",
-      "offset": 20223,
+      "offset": 20200,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceScannerFW\/FaceScannerFW\/FaceScanner.swift",
       "kind": "FloatLiteral",
-      "offset": 26905,
+      "offset": 26846,
       "length": 4,
       "value": "0.85"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceScannerFW\/FaceScannerFW\/FaceScanner.swift",
       "kind": "IntegerLiteral",
-      "offset": 27957,
+      "offset": 27862,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceScannerFW\/FaceScannerFW\/FaceScanner.swift",
       "kind": "IntegerLiteral",
-      "offset": 27986,
+      "offset": 27891,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/sebasmg\/Desktop\/PCSuite\/FACEMATCH\/FRAMEWORK\/FaceScannerFW\/FaceScannerFW\/FaceScanner.swift",
       "kind": "FloatLiteral",
-      "offset": 33038,
+      "offset": 32883,
       "length": 3,
       "value": "1.0"
     }

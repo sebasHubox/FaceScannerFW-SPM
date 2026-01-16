@@ -6,47 +6,47 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		jij+8sIlqqa8UZ1PBCN3HiHhCqs=
+		7cNEY/v9gr3HCU0siI5YxNZkczc=
 		</data>
 		<key>Modules/FaceScannerFW.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		VVDY2Aedkr52TgZToGLAXXs3IlQ=
+		+l7Bc6pV11ltkrVcfVsOuesXt2A=
 		</data>
 		<key>Modules/FaceScannerFW.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		RXva8DQO62Bnzra1Zi9hoP04yjQ=
+		5o/3W4Fi5Tu0QIhhNQhsdhY54Wk=
 		</data>
 		<key>Modules/FaceScannerFW.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		+qZuwn97pmhw/XUHt2BoRdblHB0=
+		kb/w2sBr/QY8a1Z68z5+EfdhaM4=
 		</data>
 		<key>Modules/FaceScannerFW.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		RXva8DQO62Bnzra1Zi9hoP04yjQ=
+		5o/3W4Fi5Tu0QIhhNQhsdhY54Wk=
 		</data>
 		<key>Modules/FaceScannerFW.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		PlgPlWsZlpBRRs9FQGCR9cgW0UM=
+		5dKrisiaKgZ9AVDs59wdoKiFz34=
 		</data>
 		<key>Modules/FaceScannerFW.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		VVDY2Aedkr52TgZToGLAXXs3IlQ=
+		+l7Bc6pV11ltkrVcfVsOuesXt2A=
 		</data>
 		<key>Modules/FaceScannerFW.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		f1V3VSvlqWh2/aNCTTRLcmd0Lcw=
+		mguCnbX6tElWIlbQjYLGJTYxjKo=
 		</data>
 		<key>Modules/FaceScannerFW.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		+oAnOd/xf/H1DGSQPTsw7U4TTWI=
+		6bhKYcrws9VXoe1lBwn/kH7a/RI=
 		</data>
 		<key>Modules/FaceScannerFW.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		f1V3VSvlqWh2/aNCTTRLcmd0Lcw=
+		mguCnbX6tElWIlbQjYLGJTYxjKo=
 		</data>
 		<key>Modules/FaceScannerFW.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		RybqtK1BJ+axihXI1Bvlf76DnK8=
+		8CZXV+C7K+UMo17jZSl+b/1eTko=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -55,70 +55,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GAuITfnw00WA4a3aLn0WcIlO3kVGyeDMrinfCy9a9M8=
+			tnbiLv5JtDa5hmp8KUeT+GVvKF3PNYVBT8Tfxdr88lU=
 			</data>
 		</dict>
 		<key>Modules/FaceScannerFW.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3wMXH/HTCnTaU1d7eIsieDKzcqEmL38yY0BzJuA/ioM=
+			bP0h0/wsUtcJ4QF2yFw/x/x8q7kmBQaSx0fhkcbroaw=
 			</data>
 		</dict>
 		<key>Modules/FaceScannerFW.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G4IAP7A3D3+O74RppNG8JnyRys+tVePOj23F5gO4qc0=
+			gwHw0ekpn4rqCl5/LP6Pxy49UnEaSKKA9ayIjkqQgSs=
 			</data>
 		</dict>
 		<key>Modules/FaceScannerFW.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3wMXH/HTCnTaU1d7eIsieDKzcqEmL38yY0BzJuA/ioM=
+			bP0h0/wsUtcJ4QF2yFw/x/x8q7kmBQaSx0fhkcbroaw=
 			</data>
 		</dict>
 		<key>Modules/FaceScannerFW.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			U9JoGEe1jdbm8M0YQjbswgERGPuac2TQJz0hZF5Me3I=
+			xhZ9WjWZOnI3VlZ/PM2L5+SLaIxC43Isj0aZOdA7mcI=
 			</data>
 		</dict>
 		<key>Modules/FaceScannerFW.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GAuITfnw00WA4a3aLn0WcIlO3kVGyeDMrinfCy9a9M8=
+			tnbiLv5JtDa5hmp8KUeT+GVvKF3PNYVBT8Tfxdr88lU=
 			</data>
 		</dict>
 		<key>Modules/FaceScannerFW.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gmu15v3DGKcU7i/SNfa85piQm8BKJC3H8bIIy/A6OqM=
+			YhsWXnkL6eCAoEV4n9jVOmf4Gspb1xZsF7ZZyCtkngo=
 			</data>
 		</dict>
 		<key>Modules/FaceScannerFW.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H8Ki6S48Jnh2FUVknP1CjQXgS1Jijrv1MGOSNhDnrM4=
+			uI47pMzkBESh4e4gvfw1spQcETMbiOn9QkVk+qY3u48=
 			</data>
 		</dict>
 		<key>Modules/FaceScannerFW.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gmu15v3DGKcU7i/SNfa85piQm8BKJC3H8bIIy/A6OqM=
+			YhsWXnkL6eCAoEV4n9jVOmf4Gspb1xZsF7ZZyCtkngo=
 			</data>
 		</dict>
 		<key>Modules/FaceScannerFW.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2ky9A4y4GJp+ztIPkQqc6hVMYz06ekWEbKUtVb+Bqrs=
+			/q29QtUvKMzmHafx0BQSEUACF5cKgtywRNfpDe8KmqQ=
 			</data>
 		</dict>
 	</dict>
